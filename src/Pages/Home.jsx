@@ -3,6 +3,10 @@ import HomeHero from '../Components/HomeHero'
 import Why from '../Components/Why'
 import ProgramsDesignedForYou from '../Components/ProgramsDesignedForYou'
 import LearningBenefit from '../Components/LearningBenefit'
+import OurGraduate from '../Components/OurGraduate'
+import Apply from '../Components/Apply'
+import Accreditations from '../Components/Accreditations'
+import NextStep from '../Components/NextStep'
 
 const Home = () => {
   return (
@@ -15,7 +19,13 @@ const Home = () => {
           <Why />
         </div>
         <ProgramsDesignedForYou />
-        <LearningBenefit />
+        <div className='flex flex-col gap-20'>
+          <LearningBenefit />
+          <OurGraduate />
+          <Apply />
+          <Accreditations />
+          <NextStep />
+        </div>
       </div>
     </div>
   )

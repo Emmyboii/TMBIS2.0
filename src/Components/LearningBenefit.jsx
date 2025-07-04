@@ -6,13 +6,15 @@ import Ellipse1 from '../Images/Ellipse 1.svg';
 import Ellipse2 from '../Images/Ellipse 2.svg';
 import time from '../Images/time.svg';
 import scale from '../Images/scale.svg';
+import learningFrame from '../Images/learningFrame.svg';
 import { HiMiniArrowRight } from 'react-icons/hi2';
 
 const LearningBenefit = () => {
     return (
-        <div className='pl-[150px] pr-[120px]'>
-            <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent text-[40px] font-bold'>Our Learning Benefits</p>
-            <div className='mt-4 grid grid-cols-3 gap-3'>
+        <div className=''>
+            <p className='text-[#ffffff] px-[150px] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent text-[40px] font-bold'>Our Learning Benefits</p>
+            <img src={learningFrame} className='absolute z-0' alt="" />
+            <div className='mt-4 grid px-[150px] grid-cols-3 gap-3'>
                 <div className='border-[#797979B2] relative flex flex-col gap-2 border bg-white shadow-lg shadow-[#00000040] rounded-[10px] pt-14'>
                     <img className='size-[50px] pl-4' src={time} alt="" />
                     <p className='text-[20px] pl-4 font-semibold'>Learn at Your Own Pace</p>
