@@ -1,22 +1,17 @@
 import applyImg from '../Images/applyImg.svg'
-import applyFrame from '../Images/applyFrame.svg'
-import sobat_logo from '../Images/sobat_logo.png'
-import UCC from '../Images/UCC.png'
-import NUC from '../Images/NUC.svg'
-import applybtn from '../Images/applybtn.svg'
+import applybtn from '../Images/applybtn.png'
 
 const Apply = () => {
     return (
-        <div className='mt-7'>
-            <img src={applyFrame} className='absolute' alt="" />
-            <div className='flex items-center justify-start gap-5 px-[150px]'>
+        <div className='mt-7 px-24'>
+            <div className='flex items-center justify-start gap-5'>
                 <p className='text-[#ffffff] bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent text-[40px] font-bold'>Apply For Scholarships</p>
                 <p className='text-sm rounded-full p-[5px] italic font-normal bg-[#C0943E33] border-[#79797980] border shadow-md shadow-[#00000040] fonded'>Limited Slots Available</p>
             </div>
-            <div className='flex justify-between items-center px-[150px] mt-9'>
+            <div className='flex justify-between items-center mt-9'>
                 <img className='w-[400px] self-end' src={applyImg} alt="" />
-                <div className='relative'>
-                    <img src={applybtn} className='absolute bottom-7 size-[100px] right-[-120px] z-30' alt="" />
+                <div className='relative pr-10'>
+                    <img src={applybtn} className='absolute bottom-7 size-[100px] right-[-70px] z-30' alt="" />
                     <form className='rounded-[30px] flex flex-col gap-3 relative z-10 shadow-md shadow-[#00000040] border border-[#797979B2] p-4 bg-white'>
                         <div className='flex flex-col gap-1'>
                             <p className='text-lg font-[350]'>First Name</p>
@@ -90,14 +85,9 @@ const Apply = () => {
                                 <option className="text-[18px] font-normal" value="masters">Masters Degree</option>
                             </select>
                         </div>
-                        <button className='text-[21px] font-medium py-3 w-full bg-[#C0943E33] rounded-[15px]'>Submit Application</button>
+                        <button className='text-[21px] font-medium py-3 w-full bg-[#005BC1BF] rounded-[15px]'>Submit Application</button>
                     </form>
                 </div>
-            </div>
-            <div className='flex justify-between items-center px-[150px] mt-32'>
-                <img className='w-[250px]' src={sobat_logo} alt="" />
-                <img className='w-[300px]' src={UCC} alt="" />
-                <img className='w-[200px]' src={NUC} alt="" />
             </div>
         </div>
     )

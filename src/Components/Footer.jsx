@@ -8,9 +8,9 @@ import { FaRegCopyright } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-        <div className='bg-gradient-to-r flex flex-col gap-16 from-[#002B5B] to-[#005BC1] py-14 text-white px-[150px]'>
+        <div className='bg-gradient-to-r flex flex-col gap-16 from-[#002B5B] to-[#005BC1] pt-14 pb-7 text-white px-24'>
             <div className="flex justify-between items-center">
-                <p className='text-[28px] font-semibold'>"Empowering future leaders with world-class business education—flexible, accessible, and globally recognized."</p>
+                <p className='text-[28px] font-semibold'>"Empowering future leaders with world-class business <br />education—flexible, accessible, and globally recognized."</p>
                 <div className='flex items-center justify-center mt-12 text-[25px] gap-4'>
                     <a href="https://ng.linkedin.com/company/tmbis-ng-trs" rel='noreferrer' target='_blank' className='underline'>
                         <FaLinkedin />

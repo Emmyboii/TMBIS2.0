@@ -2,13 +2,13 @@ import chert from '../Images/chert.svg'
 import baobab from '../Images/baobab.svg'
 import dataville from '../Images/dataville.svg'
 import chivita from '../Images/chivita.svg'
-import stargroup from '../Images/stargroup.svg'
+import stargroup from '../Images/stargroup.png'
 import graduates1 from '../Images/graduates1.svg'
 import graduates2 from '../Images/graduates2.svg'
 import graduates3 from '../Images/graduates3.svg'
 import graduates4 from '../Images/graduates4.svg'
-import nextBtn from '../Images/nextBtn.svg'
-import prevBtn from '../Images/prevBtn.svg'
+import nextBtn from '../Images/nextBtn.png'
+import prevBtn from '../Images/prevBtn.png'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,7 +55,7 @@ const OurGraduate = () => {
     }
 
     return (
-        <div className='px-[150px] relativ'>
+        <div className='px-24 pb-10 relative'>
             <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent text-[40px] font-bold'>Hear from Our Graduates</p>
             <Slider {...settings} className='mt-7'>
                 <div>
