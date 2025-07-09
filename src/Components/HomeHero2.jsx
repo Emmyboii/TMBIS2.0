@@ -1,4 +1,4 @@
-import hero from '../Images/hero.png'
+import hero from '../Images/hero.webp'
 
 const HomeHero2 = () => {
     return (
