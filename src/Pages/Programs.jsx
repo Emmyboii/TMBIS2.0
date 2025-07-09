@@ -1,28 +1,53 @@
-import ED from '../Images/ExecutiveDiploma.png'
-import EAD from '../Images/ExecutiveAdvancedDiploma.png'
-import PC from '../Images/ProfessionalCourses.png'
-import MINI from '../Images/MiniMBA.png'
-import projectManager from '../Images/ProjectManager.png'
 import { HiMiniArrowRight } from 'react-icons/hi2'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import ProgramDetails from '../Components/ProgramDetails';
 import { useState } from 'react'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 
-const Programs = () => {
+const Programs = ({setOpenCart}) => {
 
     const { pathname } = useLocation();
-
-    const currentProgram = ProgramDetails.find(p => p.path === pathname);
-
     const [viewAll, setViewAll] = useState(false);
 
-    if (!currentProgram) {
-        return <p className='text-center text-red-500 mt-10'>Program not found for path: {pathname}</p>;
+    const currentProgram = ProgramDetails.find(p => p.path === pathname);
+    const [programData, setProgramData] = useState(() => {
+        const storedPrograms = localStorage.getItem('programsData')
+        return storedPrograms ? JSON.parse(storedPrograms) : currentProgram
+    });
+
+    if (!programData) {
+        return <p className='text-center text-red-500 my-10'>Program not found for path: {pathname}</p>;
     }
 
-
     const { heroImg, heroBigText, heroSmallText, label, programDetails } = currentProgram;
+
+    const handleAddToCart = (projectPath) => {
+        const stored = localStorage.getItem('programsData');
+        let allPrograms = stored ? JSON.parse(stored) : ProgramDetails;
+
+        const updatedPrograms = allPrograms.map(category => {
+            const updatedDetails = category.programDetails.map(program => {
+                if (program.projectPath === projectPath) {
+                    return { ...program, addToCart: true };
+                }
+                return program;
+            });
+            return { ...category, programDetails: updatedDetails };
+        });
+
+        // Update localStorage
+        localStorage.setItem('programsData', JSON.stringify(updatedPrograms));
+        setProgramData(updatedPrograms);
+
+        window.dispatchEvent(
+            new StorageEvent('storage', {
+                key: 'programsData',
+                newValue: JSON.stringify(updatedPrograms),
+            })
+        );
+
+        setOpenCart(true)
+    };
 
     return (
         <div>
@@ -53,19 +78,27 @@ const Programs = () => {
                     <p className='text-[30px] font-semibold text-center'>{label}</p>
                     <div className='grid grid-cols-3 gap-x-3 gap-y-7 px-24'>
                         {(viewAll ? programDetails : programDetails.slice(0, 12)).map(
-                            ({ programImg, programLabel, programText, programPrice }) => (
-                                <div className='bg-[#002B5B26] border-[0.5px] flex flex-col gap-1 border-[#002B5B40] shadow-md rounded-[10px] p-3 justify-between'>
+                            ({ programImg, programLabel, programText, programPrice, projectPath }) => (
+                                <div key={programLabel} className='bg-[#002B5B26] border-[0.5px] flex flex-col gap-1 border-[#002B5B40] shadow-md rounded-[10px] p-3 justify-between'>
                                     <div className='flex flex-col gap-2'>
-                                        <img className='w-full h-[170px] rounded-[10px] object-cover' src={programImg} alt="" />
+                                        <Link onClick={() => window.scrollTo(0, 0)} to={projectPath}>
+                                            <img className='w-full h-[170px] rounded-[10px] hover:scale-105 transition-all duration-700 object-cover' src={programImg} alt="" />
+                                        </Link>
                                         <p className='text-[20px] font-semibold'>{programLabel}</p>
                                         <p className='text-[17px] font-normal'>{programText}</p>
                                     </div>
                                     <div className='flex justify-between mt-7 mb-3'>
                                         <p className='font-medium text-2xl'>€{programPrice}</p>
-                                        <button className='flex items-center  text-white bg-[#002B5B] rounded-[5px] p-2 font-semibold gap-2'>
+                                        <button
+                                            onClick={() => {
+                                                handleAddToCart(projectPath);
+                                                window.dispatchEvent(new Event('cartUpdated')); // Trigger cart to update
+                                            }}
+                                            className='flex items-center  text-white bg-[#002B5B] rounded-[5px] p-2 font-semibold gap-2'>
                                             Enroll Now
                                             <HiMiniArrowRight className='mt-1' />
                                         </button>
+
                                     </div>
                                 </div>
                             ))}
