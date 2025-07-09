@@ -87,9 +87,9 @@ const EachPrograms = ({ setOpenCart }) => {
     return (
         <div className='flex flex-col gap-12'>
             <div className="relative">
-                <img className="h-screen w-full object-cover" src={programImg} alt={programLabel} />
+                <img className="h-scree w-ful object-cover" src={programImg} alt={programLabel} />
                 <div
-                    className="w-[63%] h-screen absolute top-0"
+                    className="w-[63%] h-full absolute top-0"
                     style={{
                         background: 'linear-gradient(to right, #005BC1, #005BC199)',
                         WebkitMaskImage: 'linear-gradient(to right, black 80%, transparent 100%)',
