@@ -9,19 +9,19 @@ const ProgramsDesignedForYou = () => {
 
     const [programs, setPrograms] = useState('ABD')
     return (
-        <div className='xl:px-24 sh:pl-16 sh:pr-10 px-7'>
-            <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] mm:text-[32px] sk:text-[25px] text-xl mm:text-start text-center font-semibold'>Programs Designed for Future Business Leaders</p>
-            <div className='flex justify-between items-center md:flex-row flex-col gap-5 border-b border-[#797979B2] lf:text-base mk:text-sm md:text-xs sa:text-base text-xs w-full mx-auto pb-3 mt-10'>
-                <div className='flex items-center border-b md:border-none border-[#797979B2] justify-between w-full'>
+        <div className='xl:px-24 sh:pl-16 sh:pr-10'>
+            <p className='text-[#ffffff] mx-auto px-7 bg-gradient-to-r from-[#002B5B] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] mm:text-[32px] sk:text-[25px] text-xl mm:text-start text-center font-semibold'>Programs Designed for Future Business Leaders</p>
+            <div className='flex justify-between items-center px-[9px] md:flex-row flex-col gap-5 sh:border-b border-[#797979B2] lf:text-base mk:text-sm md:text-xs sa:text-base text-xs w-full mx-auto pb-3 mt-10'>
+                <div className='flex items-center border-b md:border-none pb-3 border-[#797979B2] justify-between w-full'>
                     <p onClick={() => setPrograms('ABD')} className={`p-[10px] cursor-pointer w-full text-center rounded-[10px] ${programs === 'ABD' ? 'bg-[#002B5B33]' : ''}`}>Associate Bachelor’s Degree</p>
                     <p onClick={() => setPrograms('EMP')} className={`p-[10px] cursor-pointer w-full text-center rounded-[10px] ${programs === 'EMP' ? 'bg-[#002B5B33]' : ''}`}>Executive MBA Program</p>
                 </div>
-                <div className='flex items-center justify-between w-full'>
+                <div className='flex items-center justify-between border-b sh:border-none pb-3 border-[#797979B2] w-full'>
                     <p onClick={() => setPrograms('EDP')} className={`p-[10px] cursor-pointer w-full text-center rounded-[10px] ${programs === 'EDP' ? 'bg-[#002B5B33]' : ''}`}>Executive Diploma Program</p>
                     <p onClick={() => setPrograms('PC')} className={`p-[10px] cursor-pointer w-full text-center rounded-[10px] ${programs === 'PC' ? 'bg-[#002B5B33]' : ''}`}>Professional Certificates</p>
                 </div>
             </div>
-            <div className='mt-5 mc:grid grid-cols-2 w-full'>
+            <div className='mt-5 mc:grid grid-cols-2 w-full px-4'>
                 <div>
                     <p className='mc:text-[32px] text-[25px] font-medium'>Program Overview</p>
                     <p className='mc:text-[18px] text-base font-normal mt-3'>

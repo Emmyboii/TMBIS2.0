@@ -75,8 +75,8 @@ const OurGraduate = () => {
     }
 
     return (
-        <div className='xl:px-24 sh:pl-16 sh:pr-10 px-7 pb-10 relative'>
-            <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] mm:text-[32px] text-[27px] mm:text-start text-center font-bold'>Hear from Our Graduates</p>
+        <div className='xl:px-24 sh:pl-16 sh:pr-10 px-6 pb-10 relative'>
+            <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] mm:text-[32px] sa:text-[27px] text-[21px] mm:text-start text-center font-bold'>Hear from Our Graduates</p>
             <Slider {...settings} className='mt-7'>
                 <div>
                     <div className='py-5 px-3 w-full bg-white min-h-[300px] my-5 justify-between rounded-[10px] border border-[#79797980] shadow-md shadow-[#00000040] flex flex-col gap-2'>

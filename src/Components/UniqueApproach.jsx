@@ -4,7 +4,7 @@ const UniqueApproach = () => {
     return (
         <div>
             <p className='bg-gradient-to-r sh:leading-[65px] md:text-start text-center xl:pl-24 sh:pl-16 sh:pr-10 sc:px-7 px-4 mc:max-w-[68%] from-[#002B5B] to-[#005BC1] bg-clip-text text-transparent sh:text-[47px] sp:text-[35px] text-[29px] font-semibold'>Our Unique Approach to Business Learning</p>
-            <div className='py-10 md:grid grid-cols-3 items-center xl:pl-24 sh:pl-16 sh:pr-10 px-7'>
+            <div className='md:grid grid-cols-3 items-center xl:pl-24 sh:pl-16 sh:pr-10 px-7'>
                 <div className='col-span-2 md:w-[85%]'>
                     <div className='mt-14 grid sp:grid-cols-2 gap-x-2 gap-y-10'>
                         <div className='flex flex-col gap-1'>

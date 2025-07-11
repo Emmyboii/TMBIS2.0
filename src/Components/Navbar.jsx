@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Logo from '../Images/Logo.svg'
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { MdMenu, MdOutlineKeyboardArrowDown } from "react-icons/md";
@@ -8,6 +8,18 @@ const Navbar = () => {
 
   const [programs, setPrograms] = useState(false)
   const [openMenu, setOpenMenu] = useState(false)
+
+  const [smScreens, setSmScreens] = useState(window.innerWidth < 500)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSmScreens(window.innerWidth > 900)
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => window.removeEventListener('resize', handleResize)
+  }, [smScreens])
 
   return (
     <div className='flex items-center justify-between xl:px-20 mc:px-2 sa:px-10 px-4 py-3 border-b-[0.5px] border-[#797979B2]'>
@@ -83,10 +95,25 @@ const Navbar = () => {
           </Link> <hr className='border w-full border-black/40' />
           <div
             className='relative'
-            onMouseEnter={() => setPrograms(true)}
-            onMouseLeave={() => setPrograms(false)} // change from onMouseUp
+            onMouseEnter={() => {
+              if (!smScreens) {
+                setPrograms(true)
+              }
+            }}
+            onMouseLeave={() => {
+              if (!smScreens) {
+                setPrograms(false)
+              }
+            }}
           >
-            <p onClick={() => setOpenMenu(false)} className='flex gap-[5px] cursor-pointer items-center'>
+            <p onClick={() => {
+              if (smScreens) {
+                setPrograms(!programs)
+              } else {
+                setOpenMenu(false)
+              }
+            }}
+              className='flex gap-[5px] cursor-pointer items-center'>
               PROGRAMS
               <MdOutlineKeyboardArrowDown className={`transition-transform duration-300 ${programs ? 'rotate-180' : ''}`} />
             </p>
