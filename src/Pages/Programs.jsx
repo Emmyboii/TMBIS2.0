@@ -10,44 +10,8 @@ const Programs = ({ setOpenCart }) => {
     const [viewAll, setViewAll] = useState(false);
 
     const currentProgram = ProgramDetails.find(p => p.path === pathname);
-    const [programData, setProgramData] = useState(() => {
-        const storedPrograms = localStorage.getItem('programsData')
-        return storedPrograms ? JSON.parse(storedPrograms) : currentProgram
-    });
-
-    if (!programData) {
-        return <p className='text-center text-red-500 my-10'>Program not found for path: {pathname}</p>;
-    }
 
     const { heroImg, heroBigText, heroSmallText, label, programDetails } = currentProgram;
-
-    const handleAddToCart = (projectPath) => {
-        const stored = localStorage.getItem('programsData');
-        let allPrograms = stored ? JSON.parse(stored) : ProgramDetails;
-
-        const updatedPrograms = allPrograms.map(category => {
-            const updatedDetails = category.programDetails.map(program => {
-                if (program.projectPath === projectPath) {
-                    return { ...program, addToCart: true };
-                }
-                return program;
-            });
-            return { ...category, programDetails: updatedDetails };
-        });
-
-        // Update localStorage
-        localStorage.setItem('programsData', JSON.stringify(updatedPrograms));
-        setProgramData(updatedPrograms);
-
-        window.dispatchEvent(
-            new StorageEvent('storage', {
-                key: 'programsData',
-                newValue: JSON.stringify(updatedPrograms),
-            })
-        );
-
-        setOpenCart(true)
-    };
 
     return (
         <div>
@@ -72,7 +36,7 @@ const Programs = ({ setOpenCart }) => {
 
                     <div className="relative text-white xl:max-w-[62%] mm:max-w-[70%] xl:ml-20 sh:ml-10 sh:px-0 sr:px-3 px-1 py-20">
                         <p className='mh:text-[60px] sh:text-[50px] sp:text-[35px] text-[26px] sh:leading-[73px] font-semibold max-w-[750px]'>{heroBigText}</p>
-                        <p className='sm:text-[20px] text-sm font-normal mt-5 max-w-[540px]'>{heroSmallText}</p>
+                        <p className='sm:text-[20px] text-sm leading-7 font-normal mt-5 max-w-[540px]'>{heroSmallText}</p>
                         <a href='#label'>
                             <button className='py-3 px-[30px] mt-14 rounded-full bg-white text-[#005BC1] text-[18px] font-medium'>
                                 {pathname === '/executive-diploma' || pathname === '/professional-courses' ? (

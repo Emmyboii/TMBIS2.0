@@ -102,7 +102,7 @@ const EachPrograms = ({ setOpenCart }) => {
                     <p className="mh:text-[60px] sh:text-[50px] sp:text-[35px] text-[26px] leading-tight font-semibold max-w-[650px]">
                         {programLabel}
                     </p>
-                    <p className="sa:text-[20px] text-base font-normal mt-5 max-w-[660px]">{programText}</p>
+                    <p className="sa:text-[20px] text-base font-normal leading-7 mt-5 max-w-[660px]">{programText}</p>
                     <button
                         onClick={() => handleAddToCart(projectPath)}
                         className="py-3 px-[30px] sh:mt-20 mt-10 rounded-full bg-white text-[#005BC1] sa:text-[18px] text-sm font-medium"
