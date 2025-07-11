@@ -113,7 +113,7 @@ const Cart = ({ openCart, setOpenCart }) => {
     return (
         <>
             {openCart && addedPrograms.length > 0 && (
-                <div className={`fixed max-w-[420px] flex flex-col z-50 gap-3 w-full right-10 h-[90%] overflow-y-auto bg-white shadow-custom-input shadow-[#002B5B80] pt-5 pb-5 px-3 ${onScroll ? 'top-2' : 'top-[92px]'}`}>
+                <div className={`fixed sa:max-w-[420px] flex flex-col z-50 gap-3 w-full sa:right-10 h-[90%] overflow-y-auto bg-white shadow-custom-input shadow-[#002B5B80] pt-5 pb-5 px-3 ${onScroll ? 'sa:top-2 top-0' : 'sa:top-[92px] top-[70px]'}`}>
                     <div className='flex items-center justify-center'>
                         <FaTimes onClick={() => setOpenCart(false)} className='absolute left-2 text-lg cursor-pointer' />
                         <p className='text-[21px] text-center font-medium'>Subtotal ({addedPrograms.length} {addedPrograms.length === 1 ? 'Item' : 'Items'}):  €{subtotal}</p>

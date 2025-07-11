@@ -5,14 +5,35 @@ import { Routes, Route } from 'react-router-dom';
 import Programs from "./Pages/Programs";
 import EachPrograms from "./Components/EachPrograms";
 import Cart from "./Components/Cart";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
 
   const [openCart, setOpenCart] = useState(false)
 
+  useEffect(() => {
+    if (openCart) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'auto'
+    }
+
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [openCart])
+
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
+      {openCart && (
+        <div
+          onClick={() => {
+            if (openCart) {
+              setOpenCart(false)
+            }
+          }}
+          className="w-full h-[200%] bg-black/30 absolute z-50"></div>
+      )}
       <div onClick={() => {
         if (openCart) {
           setOpenCart(false)

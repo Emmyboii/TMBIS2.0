@@ -19,7 +19,7 @@ const CustomPrevArrow = (props) => {
     return (
         <img
             src={prevBtn}
-            className='size-[50px] absolute bottom-[-50px] left-[47%] -translate-x-[47%] cursor-pointer'
+            className='size-[50px] absolute bottom-[-50px] md:left-[47%] md:-translate-x-[47%] left-[40%] -translate-x-[40%] cursor-pointer'
             alt=""
             onClick={onClick}
         />
@@ -32,7 +32,7 @@ const CustomNextArrow = (props) => {
     return (
         <img
             src={nextBtn}
-            className='size-[50px] absolute left-[55%] -translate-x-[55%] cursor-pointer'
+            className='size-[50px] absolute md:left-[55%] left-[60%] -translate-x-[60%] md:-translate-x-[55%] cursor-pointer'
             alt=""
             onClick={onClick}
         />
@@ -52,11 +52,31 @@ const OurGraduate = () => {
         pauseOnHover: true,
         nextArrow: <CustomNextArrow />,
         prevArrow: <CustomPrevArrow />,
+        responsive: [
+            {
+                breakpoint: 980,
+                settings: {
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 510,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     }
 
     return (
-        <div className='px-24 pb-10 relative'>
-            <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent text-[40px] font-bold'>Hear from Our Graduates</p>
+        <div className='xl:px-24 sh:pl-16 sh:pr-10 px-7 pb-10 relative'>
+            <p className='text-[#ffffff] mx-auto bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] mm:text-[32px] text-[27px] mm:text-start text-center font-bold'>Hear from Our Graduates</p>
             <Slider {...settings} className='mt-7'>
                 <div>
                     <div className='py-5 px-3 w-full bg-white min-h-[300px] my-5 justify-between rounded-[10px] border border-[#79797980] shadow-md shadow-[#00000040] flex flex-col gap-2'>
@@ -67,9 +87,9 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates1} alt="" />
-                            <div className='text-[13px]'>
+                            <div className='text-[12px]'>
                                 <p>Chukwunyere Emenike</p>
-                                <p>Senior sales IT Consultant</p>
+                                <p>Senior sales <span className='xl:block mf:hidden md:hidden'>IT</span> Consultant</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +103,7 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates2} alt="" />
-                            <div className='text-sm'>
+                            <div className='text-[13px]'>
                                 <p>Juliet Nwalozie</p>
                                 <p>Procurement Manager</p>
                             </div>
@@ -99,7 +119,7 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates3} alt="" />
-                            <div className='text-sm'>
+                            <div className='text-[13px]'>
                                 <p>Abraham Eze.</p>
                                 <p>Project Manager</p>
                             </div>
@@ -115,7 +135,7 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates4} alt="" />
-                            <div className='text-sm'>
+                            <div className='text-[13px]'>
                                 <p>Kazeem Ayobami</p>
                                 <p>Regional Sales Manager</p>
                             </div>
@@ -131,7 +151,7 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates4} alt="" />
-                            <div className='text-sm'>
+                            <div className='text-[13px]'>
                                 <p>Kazeem Ayobami</p>
                                 <p>Regional Sales Manager</p>
                             </div>
@@ -147,7 +167,7 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates4} alt="" />
-                            <div className='text-sm'>
+                            <div className='text-[13px]'>
                                 <p>Kazeem Ayobami</p>
                                 <p>Regional Sales Manager</p>
                             </div>
