@@ -6,6 +6,7 @@ import Programs from "./Pages/Programs";
 import EachPrograms from "./Components/EachPrograms";
 import Cart from "./Components/Cart";
 import { useEffect, useState } from "react";
+import About from "./Pages/About";
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home2 />} />
+          <Route path="/about" element={<About />} />
           <Route path="/:category" element={<Programs setOpenCart={setOpenCart} />} />
           <Route path="/:category/:slug" element={<EachPrograms setOpenCart={setOpenCart} />} />
         </Routes>

@@ -87,9 +87,9 @@ const OurGraduate = () => {
                         <img className='w-[124px]' src={stargroup} alt="" />
                         <div className='flex items-center gap-[10px]'>
                             <img className='size-[40px]' src={graduates1} alt="" />
-                            <div className='text-[12px]'>
+                            <div className='text-[12px] font-medium'>
                                 <p>Chukwunyere Emenike</p>
-                                <p>Senior sales <span className='xl:block mf:hidden md:hidden'>IT</span> Consultant</p>
+                                <p className='flex gap-1'>Senior sales <span className='xl:flex mf:hidden md:hidden'>IT</span> Consultant</p>
                             </div>
                         </div>
                     </div>

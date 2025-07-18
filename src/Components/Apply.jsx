@@ -1,4 +1,4 @@
-import applyImg from '../Images/applyImg.webp'
+import applyImg from '../Images/applyImg.png'
 import applybtn from '../Images/applybtn.png'
 
 const Apply = () => {

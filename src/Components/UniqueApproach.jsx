@@ -1,4 +1,4 @@
-import img from '../Images/learningTogether.webp'
+import img from '../Images/learningTogether.png'
 
 const UniqueApproach = () => {
     return (
@@ -29,7 +29,7 @@ const UniqueApproach = () => {
                         </div>
                     </div>
                 </div>
-                <img className='w-[400px] mx-auto mt-32' src={img} alt="" />
+                <img className='w-[320px] mx-auto mt-32' src={img} alt="" />
             </div>
         </div>
     )

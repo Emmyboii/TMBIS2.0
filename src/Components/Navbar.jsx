@@ -1,5 +1,11 @@
 import { useEffect, useState } from 'react';
-import Logo from '../Images/Logo.svg'
+import Logo from '../Images/Logo.png'
+import pro1 from '../Images/program1.png'
+import pro2 from '../Images/program2.png'
+import pro3 from '../Images/program3.png'
+import pro4 from '../Images/program4.png'
+import pro5 from '../Images/program5.png'
+import pro6 from '../Images/program6.png'
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { MdMenu, MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { Link } from 'react-router-dom';
@@ -24,7 +30,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between xl:px-20 mc:px-2 sa:px-10 px-4 py-3 border-b-[0.5px] border-[#797979B2]'>
       <Link to='/'>
-        <img className='sa:w-auto w-24' src={Logo} alt="" />
+        <img className='w-32' src={Logo} alt="" />
       </Link>
       <div className='mc:flex hidden items-center gap-6 ml-[120px] xl:text-[14px] text-xs font-normal'>
         <Link to='/'>
@@ -34,9 +40,7 @@ const Navbar = () => {
           </p>
         </Link>
         <div
-          className='relative'
           onMouseEnter={() => setPrograms(true)}
-          onMouseLeave={() => setPrograms(false)} // change from onMouseUp
         >
           <p className='flex gap-[5px] cursor-pointer items-center'>
             PROGRAMS
@@ -45,38 +49,66 @@ const Navbar = () => {
 
           {programs && (
             <div
-              className='bg-white shadow-lg absolute w-[240px] z-50 flex -left-[80%] flex-col gap-3 p-5 top-[53px rounded-lg border border-gray-200'>
+              onMouseLeave={() => setPrograms(false)}
+              className='bg-white shadow-lg px-[150px] absolute left-0 w-full z-50 grid grid-cols-3 gap-y-7 gap-x-4 top-[88px] p-5 border border-gray-200'>
+              <Link onClick={() => setPrograms(false)} to='/associate-bachelor-degree' className='hover:text-blue-600 transition'>
+                <div>
+                  <img className='h-[210px] object-cover w-full' src={pro1} alt="" />
+                  <p className='py-2'>Associate Bachelor's Degree</p>
+                </div>
+              </Link>
+
+              <Link onClick={() => setPrograms(false)} to='/executive-mba' className='hover:text-blue-600 transition'>
+                <div className='bg-blac'>
+                  <img className='h-[210px] object-cover w-full' src={pro2} alt="" />
+                  <p className='py-2'>Executive MBA</p>
+                </div>
+              </Link>
+
               <Link onClick={() => setPrograms(false)} to='/executive-advanced-diploma' className='hover:text-blue-600 transition'>
-                <p className='py-2'>Executive Advanced Diploma</p>
-              </Link>
-
-              <Link onClick={() => setPrograms(false)} to='/executive-diploma' className='hover:text-blue-600 transition'>
-                <p className='py-2'>Executive Diploma</p>
-              </Link>
-
-              <Link onClick={() => setPrograms(false)} to='/professional-courses' className='hover:text-blue-600 transition'>
-                <p className='py-2'>Professional Courses</p>
+                <div>
+                  <img className='h-[210px] object-cover w-full' src={pro3} alt="" />
+                  <p className='py-2'>Executive Advanced Diploma</p>
+                </div>
               </Link>
 
               <Link onClick={() => setPrograms(false)} to='/mini-mba' className='hover:text-blue-600 transition'>
-                <p className='py-2'>Executive Mini MBA</p>
+                <div>
+                  <img className='h-[210px] object-cover w-full' src={pro4} alt="" />
+                  <p className='py-2'>Executive Mini MBA</p>
+                </div>
               </Link>
+
+              <Link onClick={() => setPrograms(false)} to='/professional-courses' className='hover:text-blue-600 transition'>
+                <div>
+                  <img className='h-[210px] object-cover w-full' src={pro5} alt="" />
+                  <p className='py-2'>Professional Courses</p>
+                </div>
+              </Link>
+
+              <Link onClick={() => setPrograms(false)} to='/executive-diploma' className='hover:text-blue-600 transition'>
+                <div>
+                  <img className='h-[210px] object-cover w-full' src={pro6} alt="" />
+                  <p className='py-2'>Executive Diploma</p>
+                </div>
+              </Link>
+
             </div>
           )}
         </div>
 
-        {/* <Link to='/admission'> */}
+        <Link to='/articles'>
         <p className='flex gap-[5px] items-center'>
-          ADMISSIONS
-          <MdOutlineKeyboardArrowDown />
+          ARTICLES
+          <HiMiniArrowUpRight />
         </p>
-        {/* </Link> */}
-        {/* <Link to='/about'> */}
+        </Link>
+        <Link to='/about'>
         <p className='flex gap-[5px] items-center'>
           ABOUT US
           <HiMiniArrowUpRight />
         </p>
-        {/* </Link> */}
+        </Link>
       </div>
       <div className='text-[12px] font-normal mc:flex hidden gap-3'>
         <button className='py-[10px] px-3 rounded-[5px] border-2 border-[#FFFFFF80] text-white bg-gradient-to-r from-[#C0943E] to-[#5A451D]'>APPLY NOW</button>
@@ -94,7 +126,6 @@ const Navbar = () => {
             </p>
           </Link> <hr className='border w-full border-black/40' />
           <div
-            className='relative'
             onMouseEnter={() => {
               if (!smScreens) {
                 setPrograms(true)
@@ -120,29 +151,56 @@ const Navbar = () => {
 
             {programs && (
               <div
-                className='bg-white shadow-lg absolute w-[240px] z-50 flex flex-col gap-3 p-5 top-[53px rounded-lg border border-gray-200'>
-                <Link onClick={() => setOpenMenu(false)} to='/executive-advanced-diploma' className='hover:text-blue-600 transition'>
-                  <p className='py-2'>Executive Advanced Diploma</p>
+                className='bg-white shadow-lg absolute left-0 w-full z-50 grid md:grid-cols-3 grid-cols-2 gap-y-7 gap-x-4 top-32 p-5 border border-gray-200'>
+                <Link onClick={() => setPrograms(false)} to='/associate-bachelor-degree' className='hover:text-blue-600 transition'>
+                  <div>
+                    <img className='h-[210px] object-cover w-full' src={pro1} alt="" />
+                    <p className='py-2'>Associate Bachelor's Degree</p>
+                  </div>
                 </Link>
 
-                <Link onClick={() => setOpenMenu(false)} to='/executive-diploma' className='hover:text-blue-600 transition'>
-                  <p className='py-2'>Executive Diploma</p>
+                <Link onClick={() => setPrograms(false)} to='/executive-mba' className='hover:text-blue-600 transition'>
+                  <div className='bg-blac'>
+                    <img className='h-[210px] object-cover w-full' src={pro2} alt="" />
+                    <p className='py-2'>Executive MBA</p>
+                  </div>
                 </Link>
 
-                <Link onClick={() => setOpenMenu(false)} to='/professional-courses' className='hover:text-blue-600 transition'>
-                  <p className='py-2'>Professional Courses</p>
+                <Link onClick={() => setPrograms(false)} to='/executive-advanced-diploma' className='hover:text-blue-600 transition'>
+                  <div>
+                    <img className='h-[210px] object-cover w-full' src={pro3} alt="" />
+                    <p className='py-2'>Executive Advanced Diploma</p>
+                  </div>
                 </Link>
 
-                <Link onClick={() => setOpenMenu(false)} to='/mini-mba' className='hover:text-blue-600 transition'>
-                  <p className='py-2'>Executive Mini MBA</p>
+                <Link onClick={() => setPrograms(false)} to='/mini-mba' className='hover:text-blue-600 transition'>
+                  <div>
+                    <img className='h-[210px] object-cover w-full' src={pro4} alt="" />
+                    <p className='py-2'>Executive Mini MBA</p>
+                  </div>
                 </Link>
+
+                <Link onClick={() => setPrograms(false)} to='/professional-courses' className='hover:text-blue-600 transition'>
+                  <div>
+                    <img className='h-[210px] object-cover w-full' src={pro5} alt="" />
+                    <p className='py-2'>Professional Courses</p>
+                  </div>
+                </Link>
+
+                <Link onClick={() => setPrograms(false)} to='/executive-diploma' className='hover:text-blue-600 transition'>
+                  <div>
+                    <img className='h-[210px] object-cover w-full' src={pro6} alt="" />
+                    <p className='py-2'>Executive Diploma</p>
+                  </div>
+                </Link>
+
               </div>
             )}
           </div> <hr className='border w-full border-black/40' />
 
           {/* <Link to='/admission'> */}
           <p onClick={() => setOpenMenu(false)} className='flex gap-[5px] items-center'>
-            ADMISSIONS
+            ARTICLES
             <MdOutlineKeyboardArrowDown />
           </p> <hr className='border w-full border-black/40' />
           {/* </Link> */}
