@@ -7,7 +7,7 @@ import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 const Programs = ({ setOpenCart }) => {
 
     const { pathname } = useLocation();
-    const [viewAll, setViewAll] = useState(false);
+    const [visibleCount, setVisibleCount] = useState(15);
 
     const currentProgram = ProgramDetails.find(p => p.path === pathname);
 
@@ -35,11 +35,11 @@ const Programs = ({ setOpenCart }) => {
                     ></div>
 
                     <div className="relative text-white xl:max-w-[62%] mm:max-w-[70%] xl:ml-20 sh:ml-10 sh:px-0 sr:px-3 px-1 py-20">
-                        <p className='mh:text-[60px] sh:text-[50px] sp:text-[35px] text-[26px] sh:leading-[73px] font-semibold max-w-[750px]'>{heroBigText}</p>
+                        <p className='mh:text-[60px] sh:text-[50px] sp:text-[35px] text-[26px] sh:leading-[73px] font-semibold max-w-[700px]'>{heroBigText}</p>
                         <p className='sm:text-[20px] text-sm leading-7 font-normal mt-5 max-w-[540px]'>{heroSmallText}</p>
                         <a href='#label'>
                             <button className='py-3 px-[30px] mt-14 rounded-full bg-white text-[#005BC1] text-[18px] font-medium'>
-                                {pathname === '/executive-diploma' || pathname === '/professional-courses' ? (
+                                {pathname === '/executive-diploma' || pathname === '/professional-certificate' ? (
                                     <p>Start Learning Today</p>
                                 ) : (
                                     <p>Enroll Now</p>
@@ -52,7 +52,7 @@ const Programs = ({ setOpenCart }) => {
                 <div id='label' className='pb-20 flex flex-col gap-8'>
                     <p className='sh:text-[30px] sp:text-2xl text-lg font-semibold text-center'>{label}</p>
                     <div className='grid mk:grid-cols-3 sd:grid-cols-2 gap-x-3 gap-y-7 md:px-24 px-7'>
-                        {(viewAll ? programDetails : programDetails.slice(0, 12)).map(
+                        {programDetails.slice(0, visibleCount).map(
                             ({ programImg, programLabel, programText, programPrice, projectPath }) => (
                                 <div key={programLabel} className='bg-[#002B5B26] border-[0.5px] flex flex-col gap-1 border-[#002B5B40] shadow-md rounded-[10px] p-3 justify-between'>
                                     <div className='flex flex-col gap-2'>
@@ -78,14 +78,21 @@ const Programs = ({ setOpenCart }) => {
                     {programDetails.length > 12 && (
                         <div className='text-center mt-6'>
                             <button
-                                onClick={() => setViewAll(!viewAll)}
+                                onClick={() => {
+                                    if (visibleCount >= programDetails.length) {
+                                        setVisibleCount(15); // reset
+                                    } else {
+                                        setVisibleCount(prev => prev + 15); // load more
+                                    }
+                                }}
                                 className='flex items-center gap-3 bg-[#002B5B] px-6 py-2 rounded-full font-medium text-white mx-auto transition duration-300'
                             >
-                                {viewAll ? 'View Less Courses' : 'View More Courses'}
-                                <MdOutlineKeyboardArrowDown className={`transition-transform duration-300 ${viewAll ? 'rotate-180' : ''}`} />
+                                {visibleCount >= programDetails.length ? 'View Less Courses' : 'View More Courses'}
+                                <MdOutlineKeyboardArrowDown className={`transition-transform duration-300 ${visibleCount >= programDetails.length ? 'rotate-180' : ''}`} />
                             </button>
                         </div>
                     )}
+
                 </div>
             </div>
         </div>

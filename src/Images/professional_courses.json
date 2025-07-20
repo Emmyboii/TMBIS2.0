@@ -1,7 +1,7 @@
 [
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/fullstack-development",
+    "projectPath": "/professional-certificate/fullstack-development",
     "programImg": "IT",
     "programLabel": "Fullstack Development",
     "programText": "Master the core concepts of fullstack development with real-world projects and expert-led instruction.",
@@ -15,7 +15,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/frontend-development",
+    "projectPath": "/professional-certificate/frontend-development",
     "programImg": "IT",
     "programLabel": "Frontend Development",
     "programText": "Master the core concepts of frontend development with real-world projects and expert-led instruction.",
@@ -29,7 +29,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/ui-ux-design",
+    "projectPath": "/professional-certificate/ui-ux-design",
     "programImg": "IT",
     "programLabel": "UI-UX Design",
     "programText": "Master the core concepts of ui-ux design with real-world projects and expert-led instruction.",
@@ -43,7 +43,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/graphic-design",
+    "projectPath": "/professional-certificate/graphic-design",
     "programImg": "IT",
     "programLabel": "Graphic Design",
     "programText": "Master the core concepts of graphic design with real-world projects and expert-led instruction.",
@@ -57,7 +57,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/business--data-analyst",
+    "projectPath": "/professional-certificate/business--data-analyst",
     "programImg": "IT",
     "programLabel": "Business - Data Analyst",
     "programText": "Master the core concepts of business - data analyst with real-world projects and expert-led instruction.",
@@ -71,7 +71,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/iot-pro-course",
+    "projectPath": "/professional-certificate/iot-pro-course",
     "programImg": "IT",
     "programLabel": "IoT Pro Course",
     "programText": "Master the core concepts of iot pro course with real-world projects and expert-led instruction.",
@@ -85,7 +85,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/blockchain-pro-course",
+    "projectPath": "/professional-certificate/blockchain-pro-course",
     "programImg": "IT",
     "programLabel": "Blockchain Pro Course",
     "programText": "Master the core concepts of blockchain pro course with real-world projects and expert-led instruction.",
@@ -99,7 +99,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/sql-pro-course",
+    "projectPath": "/professional-certificate/sql-pro-course",
     "programImg": "IT",
     "programLabel": "SQL Pro Course",
     "programText": "Master the core concepts of sql pro course with real-world projects and expert-led instruction.",
@@ -113,7 +113,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/devops-pro-course",
+    "projectPath": "/professional-certificate/devops-pro-course",
     "programImg": "IT",
     "programLabel": "DevOps Pro Course",
     "programText": "Master the core concepts of devops pro course with real-world projects and expert-led instruction.",
@@ -127,7 +127,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/networking-programming-course",
+    "projectPath": "/professional-certificate/networking-programming-course",
     "programImg": "IT",
     "programLabel": "Networking Programming Course",
     "programText": "Master the core concepts of networking programming course with real-world projects and expert-led instruction.",
@@ -141,7 +141,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/cyber-security-pro-course",
+    "projectPath": "/professional-certificate/cyber-security-pro-course",
     "programImg": "IT",
     "programLabel": "Cyber Security Pro Course",
     "programText": "Master the core concepts of cyber security pro course with real-world projects and expert-led instruction.",
@@ -155,7 +155,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/microsoft-excel-pro-course",
+    "projectPath": "/professional-certificate/microsoft-excel-pro-course",
     "programImg": "IT",
     "programLabel": "Microsoft Excel Pro Course",
     "programText": "Master the core concepts of microsoft excel pro course with real-world projects and expert-led instruction.",
@@ -169,7 +169,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/power-bi-pro-course",
+    "projectPath": "/professional-certificate/power-bi-pro-course",
     "programImg": "IT",
     "programLabel": "Power Bi  Pro Course",
     "programText": "Master the core concepts of power bi  pro course with real-world projects and expert-led instruction.",
@@ -183,7 +183,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/dart-programming-course",
+    "projectPath": "/professional-certificate/dart-programming-course",
     "programImg": "IT",
     "programLabel": "Dart Programming Course",
     "programText": "Master the core concepts of dart programming course with real-world projects and expert-led instruction.",
@@ -197,7 +197,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/programming-course",
+    "projectPath": "/professional-certificate/programming-course",
     "programImg": "IT",
     "programLabel": "Programming Course",
     "programText": "Master the core concepts of programming course with real-world projects and expert-led instruction.",
@@ -211,7 +211,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/html-pro-course",
+    "projectPath": "/professional-certificate/html-pro-course",
     "programImg": "IT",
     "programLabel": "HTML Pro Course",
     "programText": "Master the core concepts of html pro course with real-world projects and expert-led instruction.",
@@ -225,7 +225,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/python-pro-course",
+    "projectPath": "/professional-certificate/python-pro-course",
     "programImg": "IT",
     "programLabel": "Python Pro Course",
     "programText": "Master the core concepts of python pro course with real-world projects and expert-led instruction.",
@@ -239,7 +239,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/react-native",
+    "projectPath": "/professional-certificate/react-native",
     "programImg": "IT",
     "programLabel": "React Native",
     "programText": "Master the core concepts of react native with real-world projects and expert-led instruction.",
@@ -253,7 +253,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/web-development",
+    "projectPath": "/professional-certificate/web-development",
     "programImg": "IT",
     "programLabel": "Web Development",
     "programText": "Master the core concepts of web development with real-world projects and expert-led instruction.",
@@ -267,7 +267,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/cloud-computing",
+    "projectPath": "/professional-certificate/cloud-computing",
     "programImg": "IT",
     "programLabel": "Cloud Computing",
     "programText": "Master the core concepts of cloud computing with real-world projects and expert-led instruction.",
@@ -281,7 +281,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/artificial-intelligence",
+    "projectPath": "/professional-certificate/artificial-intelligence",
     "programImg": "IT",
     "programLabel": "Artificial Intelligence",
     "programText": "Master the core concepts of artificial intelligence with real-world projects and expert-led instruction.",
@@ -295,7 +295,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/big-data",
+    "projectPath": "/professional-certificate/big-data",
     "programImg": "IT",
     "programLabel": "Big Data",
     "programText": "Master the core concepts of big data with real-world projects and expert-led instruction.",
@@ -309,7 +309,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/data-science",
+    "projectPath": "/professional-certificate/data-science",
     "programImg": "IT",
     "programLabel": "Data Science",
     "programText": "Master the core concepts of data science with real-world projects and expert-led instruction.",
@@ -323,7 +323,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/social-media-management",
+    "projectPath": "/professional-certificate/social-media-management",
     "programImg": "IT",
     "programLabel": "Social Media Management",
     "programText": "Master the core concepts of social media management with real-world projects and expert-led instruction.",
@@ -337,7 +337,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/human-resource-management",
+    "projectPath": "/professional-certificate/human-resource-management",
     "programImg": "IT",
     "programLabel": "Human Resource Management",
     "programText": "Master the core concepts of human resource management with real-world projects and expert-led instruction.",
@@ -351,7 +351,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/project-management",
+    "projectPath": "/professional-certificate/project-management",
     "programImg": "IT",
     "programLabel": "Project Management",
     "programText": "Master the core concepts of project management with real-world projects and expert-led instruction.",
@@ -365,7 +365,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/customer-service",
+    "projectPath": "/professional-certificate/customer-service",
     "programImg": "IT",
     "programLabel": "Customer Service",
     "programText": "Master the core concepts of customer service with real-world projects and expert-led instruction.",
@@ -379,7 +379,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/risk-management",
+    "projectPath": "/professional-certificate/risk-management",
     "programImg": "IT",
     "programLabel": "Risk Management",
     "programText": "Master the core concepts of risk management with real-world projects and expert-led instruction.",
@@ -393,7 +393,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/marketing",
+    "projectPath": "/professional-certificate/marketing",
     "programImg": "IT",
     "programLabel": "Marketing",
     "programText": "Master the core concepts of marketing with real-world projects and expert-led instruction.",
@@ -407,7 +407,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/accounting",
+    "projectPath": "/professional-certificate/accounting",
     "programImg": "IT",
     "programLabel": "Accounting",
     "programText": "Master the core concepts of accounting with real-world projects and expert-led instruction.",
@@ -421,7 +421,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/sales-management",
+    "projectPath": "/professional-certificate/sales-management",
     "programImg": "IT",
     "programLabel": "Sales Management",
     "programText": "Master the core concepts of sales management with real-world projects and expert-led instruction.",
@@ -435,7 +435,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/information-technology",
+    "projectPath": "/professional-certificate/information-technology",
     "programImg": "IT",
     "programLabel": "Information Technology",
     "programText": "Master the core concepts of information technology with real-world projects and expert-led instruction.",
@@ -449,7 +449,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/supply-chain-management",
+    "projectPath": "/professional-certificate/supply-chain-management",
     "programImg": "IT",
     "programLabel": "Supply Chain Management",
     "programText": "Master the core concepts of supply chain management with real-world projects and expert-led instruction.",
@@ -463,7 +463,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/product-management",
+    "projectPath": "/professional-certificate/product-management",
     "programImg": "IT",
     "programLabel": "Product Management",
     "programText": "Master the core concepts of product management with real-world projects and expert-led instruction.",
@@ -477,7 +477,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/product-design",
+    "projectPath": "/professional-certificate/product-design",
     "programImg": "IT",
     "programLabel": "Product Design",
     "programText": "Master the core concepts of product design with real-world projects and expert-led instruction.",
@@ -491,7 +491,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/design-thinking",
+    "projectPath": "/professional-certificate/design-thinking",
     "programImg": "IT",
     "programLabel": "Design Thinking",
     "programText": "Master the core concepts of design thinking with real-world projects and expert-led instruction.",
@@ -505,7 +505,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/brand-management",
+    "projectPath": "/professional-certificate/brand-management",
     "programImg": "IT",
     "programLabel": "Brand Management",
     "programText": "Master the core concepts of brand management with real-world projects and expert-led instruction.",
@@ -519,7 +519,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/laravel-programming",
+    "projectPath": "/professional-certificate/laravel-programming",
     "programImg": "IT",
     "programLabel": "Laravel Programming",
     "programText": "Master the core concepts of laravel programming with real-world projects and expert-led instruction.",
@@ -533,7 +533,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/java-programming",
+    "projectPath": "/professional-certificate/java-programming",
     "programImg": "IT",
     "programLabel": "Java Programming",
     "programText": "Master the core concepts of java programming with real-world projects and expert-led instruction.",
@@ -547,7 +547,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/payroll-management",
+    "projectPath": "/professional-certificate/payroll-management",
     "programImg": "IT",
     "programLabel": "Payroll Management",
     "programText": "Master the core concepts of payroll management with real-world projects and expert-led instruction.",
@@ -561,7 +561,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/customer-relationship-management",
+    "projectPath": "/professional-certificate/customer-relationship-management",
     "programImg": "IT",
     "programLabel": "Customer Relationship Management",
     "programText": "Master the core concepts of customer relationship management with real-world projects and expert-led instruction.",
@@ -575,7 +575,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/banking-and-finance",
+    "projectPath": "/professional-certificate/banking-and-finance",
     "programImg": "IT",
     "programLabel": "Banking and Finance",
     "programText": "Master the core concepts of banking and finance with real-world projects and expert-led instruction.",
@@ -589,7 +589,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/compensation-and-benefits",
+    "projectPath": "/professional-certificate/compensation-and-benefits",
     "programImg": "IT",
     "programLabel": "Compensation and Benefits",
     "programText": "Master the core concepts of compensation and benefits with real-world projects and expert-led instruction.",
@@ -603,7 +603,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/performance-appraisal",
+    "projectPath": "/professional-certificate/performance-appraisal",
     "programImg": "IT",
     "programLabel": "Performance Appraisal",
     "programText": "Master the core concepts of performance appraisal with real-world projects and expert-led instruction.",
@@ -617,7 +617,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/talent-acquisition",
+    "projectPath": "/professional-certificate/talent-acquisition",
     "programImg": "IT",
     "programLabel": "Talent Acquisition",
     "programText": "Master the core concepts of talent acquisition with real-world projects and expert-led instruction.",
@@ -631,7 +631,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/hr-analytics",
+    "projectPath": "/professional-certificate/hr-analytics",
     "programImg": "IT",
     "programLabel": "HR Analytics",
     "programText": "Master the core concepts of hr analytics with real-world projects and expert-led instruction.",
@@ -645,7 +645,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/public-health",
+    "projectPath": "/professional-certificate/public-health",
     "programImg": "IT",
     "programLabel": "Public Health",
     "programText": "Master the core concepts of public health with real-world projects and expert-led instruction.",
@@ -659,7 +659,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/content-writing",
+    "projectPath": "/professional-certificate/content-writing",
     "programImg": "IT",
     "programLabel": "Content Writing",
     "programText": "Master the core concepts of content writing with real-world projects and expert-led instruction.",
@@ -673,7 +673,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/pinterest-marketing",
+    "projectPath": "/professional-certificate/pinterest-marketing",
     "programImg": "IT",
     "programLabel": "Pinterest Marketing",
     "programText": "Master the core concepts of pinterest marketing with real-world projects and expert-led instruction.",
@@ -687,7 +687,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/audit-and-internal-control-management",
+    "projectPath": "/professional-certificate/audit-and-internal-control-management",
     "programImg": "IT",
     "programLabel": "Audit and Internal Control Management",
     "programText": "Master the core concepts of audit and internal control management with real-world projects and expert-led instruction.",
@@ -701,7 +701,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/fintech-management",
+    "projectPath": "/professional-certificate/fintech-management",
     "programImg": "IT",
     "programLabel": "Fintech Management",
     "programText": "Master the core concepts of fintech management with real-world projects and expert-led instruction.",
@@ -715,7 +715,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/communications-management",
+    "projectPath": "/professional-certificate/communications-management",
     "programImg": "IT",
     "programLabel": "Communications Management",
     "programText": "Master the core concepts of communications management with real-world projects and expert-led instruction.",
@@ -729,7 +729,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/operations-management",
+    "projectPath": "/professional-certificate/operations-management",
     "programImg": "IT",
     "programLabel": "Operations Management",
     "programText": "Master the core concepts of operations management with real-world projects and expert-led instruction.",
@@ -743,7 +743,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/business-management",
+    "projectPath": "/professional-certificate/business-management",
     "programImg": "IT",
     "programLabel": "Business Management",
     "programText": "Master the core concepts of business management with real-world projects and expert-led instruction.",
@@ -757,7 +757,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/property-and-asset-management",
+    "projectPath": "/professional-certificate/property-and-asset-management",
     "programImg": "IT",
     "programLabel": "Property and Asset Management",
     "programText": "Master the core concepts of property and asset management with real-world projects and expert-led instruction.",
@@ -771,7 +771,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/monitoring-and-evaluation",
+    "projectPath": "/professional-certificate/monitoring-and-evaluation",
     "programImg": "IT",
     "programLabel": "Monitoring and Evaluation",
     "programText": "Master the core concepts of monitoring and evaluation with real-world projects and expert-led instruction.",
@@ -785,7 +785,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/digital-marketing",
+    "projectPath": "/professional-certificate/digital-marketing",
     "programImg": "IT",
     "programLabel": "Digital Marketing",
     "programText": "Master the core concepts of digital marketing with real-world projects and expert-led instruction.",
@@ -799,7 +799,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/copywriting",
+    "projectPath": "/professional-certificate/copywriting",
     "programImg": "IT",
     "programLabel": "Copywriting",
     "programText": "Master the core concepts of copywriting with real-world projects and expert-led instruction.",
@@ -813,7 +813,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/procurement",
+    "projectPath": "/professional-certificate/procurement",
     "programImg": "IT",
     "programLabel": "Procurement",
     "programText": "Master the core concepts of procurement with real-world projects and expert-led instruction.",
@@ -827,7 +827,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/office-administration",
+    "projectPath": "/professional-certificate/office-administration",
     "programImg": "IT",
     "programLabel": "Office Administration",
     "programText": "Master the core concepts of office administration with real-world projects and expert-led instruction.",
@@ -841,7 +841,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/asset-professional-management",
+    "projectPath": "/professional-certificate/asset-professional-management",
     "programImg": "IT",
     "programLabel": "Asset Professional Management",
     "programText": "Master the core concepts of asset professional management with real-world projects and expert-led instruction.",
@@ -855,7 +855,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/hospitality-management",
+    "projectPath": "/professional-certificate/hospitality-management",
     "programImg": "IT",
     "programLabel": "Hospitality Management",
     "programText": "Master the core concepts of hospitality management with real-world projects and expert-led instruction.",
@@ -869,7 +869,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/hse-management",
+    "projectPath": "/professional-certificate/hse-management",
     "programImg": "IT",
     "programLabel": "HSE Management",
     "programText": "Master the core concepts of hse management with real-world projects and expert-led instruction.",
@@ -883,7 +883,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/financial-management",
+    "projectPath": "/professional-certificate/financial-management",
     "programImg": "IT",
     "programLabel": "Financial Management",
     "programText": "Master the core concepts of financial management with real-world projects and expert-led instruction.",
@@ -897,7 +897,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/warehouse-management",
+    "projectPath": "/professional-certificate/warehouse-management",
     "programImg": "IT",
     "programLabel": "Warehouse Management",
     "programText": "Master the core concepts of warehouse management with real-world projects and expert-led instruction.",
@@ -911,7 +911,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/logistics-management",
+    "projectPath": "/professional-certificate/logistics-management",
     "programImg": "IT",
     "programLabel": "Logistics Management",
     "programText": "Master the core concepts of logistics management with real-world projects and expert-led instruction.",
@@ -925,7 +925,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/materials-management",
+    "projectPath": "/professional-certificate/materials-management",
     "programImg": "IT",
     "programLabel": "Materials Management",
     "programText": "Master the core concepts of materials management with real-world projects and expert-led instruction.",
@@ -939,7 +939,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/inventory-management",
+    "projectPath": "/professional-certificate/inventory-management",
     "programImg": "IT",
     "programLabel": "Inventory Management",
     "programText": "Master the core concepts of inventory management with real-world projects and expert-led instruction.",
@@ -953,21 +953,21 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/wordpress-operations-pro",
+    "projectPath": "/professional-certificate/wordpress-operations-pro",
     "programImg": "IT",
-    "programLabel": "WordPress Operations Pro\u2122",
-    "programText": "Master the core concepts of wordpress operations pro\u2122 with real-world projects and expert-led instruction.",
+    "programLabel": "WordPress Operations Pro",
+    "programText": "Master the core concepts of wordpress operations pro with real-world projects and expert-led instruction.",
     "programPrice": "3",
     "programName": "PROFESSIONAL COURSES",
     "reviews": "125",
     "duration": "14 days",
     "mode": "Online & Self-Paced",
-    "certificate": "Professional Certificate in WordPress Operations Pro\u2122",
-    "note": "This course offers a comprehensive dive into wordpress operations pro\u2122, equipping learners with the practical and strategic skills needed to excel in this field."
+    "certificate": "Professional Certificate in WordPress Operations Pro",
+    "note": "This course offers a comprehensive dive into wordpress operations pro, equipping learners with the practical and strategic skills needed to excel in this field."
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/product-analytics",
+    "projectPath": "/professional-certificate/product-analytics",
     "programImg": "IT",
     "programLabel": "Product Analytics",
     "programText": "Master the core concepts of product analytics with real-world projects and expert-led instruction.",
@@ -981,7 +981,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/instagram-marketing-and-management",
+    "projectPath": "/professional-certificate/instagram-marketing-and-management",
     "programImg": "IT",
     "programLabel": "Instagram Marketing & Management",
     "programText": "Master the core concepts of instagram marketing & management with real-world projects and expert-led instruction.",
@@ -995,7 +995,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/facebook-ads-and-management",
+    "projectPath": "/professional-certificate/facebook-ads-and-management",
     "programImg": "IT",
     "programLabel": "Facebook Ads and Management",
     "programText": "Master the core concepts of facebook ads and management with real-world projects and expert-led instruction.",
@@ -1009,7 +1009,7 @@
   },
   {
     "addToCart": false,
-    "projectPath": "/professional-courses/twitter-operations-and-management",
+    "projectPath": "/professional-certificate/twitter-operations-and-management",
     "programImg": "IT",
     "programLabel": "Twitter Operations and Management",
     "programText": "Master the core concepts of twitter operations and management with real-world projects and expert-led instruction.",

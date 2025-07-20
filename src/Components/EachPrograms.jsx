@@ -20,6 +20,13 @@ const EachPrograms = ({ setOpenCart }) => {
     const [learnAbout, setLearnAbout] = useState('program');
     const [currentProgram, setCurrentProgram] = useState(null);
 
+    const MBA = pathname.includes('/executive-mba')
+    const ABD = pathname.includes('/associate-bachelor-degree')
+    const EAD = pathname.includes('/executive-advanced-diploma')
+    const ED = pathname.includes('/executive-diploma')
+    const Mini = pathname.includes('/mini-mba')
+    const PC = pathname.includes('/professional-certificate')
+
     // Get original (fresh) data from ProgramDetails
     useEffect(() => {
         const category = ProgramDetails.find(cat =>
@@ -75,7 +82,6 @@ const EachPrograms = ({ setOpenCart }) => {
 
     const { programImg, programLabel, programText, projectPath, programPrice, programName, reviews, duration, mode, certificate, note } = currentProgram;
 
-    console.log(programImg); // should print a valid image URL
 
     return (
         <div className='flex flex-col gap-12'>
@@ -105,7 +111,7 @@ const EachPrograms = ({ setOpenCart }) => {
                     <p className="sa:text-[20px] text-base font-normal leading-7 mt-5 max-w-[660px]">{programText}</p>
                     <button
                         onClick={() => handleAddToCart(projectPath)}
-                        className="py-3 px-[30px] sh:mt-20 mt-10 rounded-full bg-white text-[#005BC1] sa:text-[18px] text-sm font-medium"
+                        className="py-3 px-[30px] z-50 sh:mt-20 mt-10 rounded-full bg-white text-[#005BC1] sa:text-[18px] text-sm font-medium"
                     >
                         Start Course Today for <span className="font-semibold">€{programPrice}</span>
                     </button>
@@ -113,7 +119,7 @@ const EachPrograms = ({ setOpenCart }) => {
                         <img className="sa:w-[160px] w-[130px]" src={stars} alt="reviews" />
                         <p>{reviews}+ Reviews</p>
                     </div>
-                    <div className="mt-7 flex gap-14 flex-wrap">
+                    <div className="mt-7 flex sk:flex-row flex-col sk:gap-14 gap-4">
                         <div className="flex items-center gap-3">
                             <img className="sa:size-[50px] size-[30px]" src={durations} alt="Duration" />
                             <div>
@@ -134,62 +140,113 @@ const EachPrograms = ({ setOpenCart }) => {
 
             <div className='pb-12'>
                 <p className='font-medium sh:text-[30px] sp:text-2xl text-lg text-center'>included in the program:</p>
-                <div className='flex md:flex-row flex-col justify-between gap-8 mt-6 shadow-custom-sm py-5 relative drop-shadow-xl shadow-[#0000001A] rounded-[10px] max-w-[1080px] sa:mx-6 mx-3 sa:px-0 px-2 xl:mx-auto'>
-                    <img className='absolute md:block hidden h-[100px] top-1/2 -translate-y-1/2 left-[26%] -translate-x-[26%]' src={line} alt="" />
-                    <img className='absolute md:block hidden h-[100px] top-1/2 -translate-y-1/2 left-[47%] -translate-x-[47%]' src={line} alt="" />
-                    <img className='absolute md:h-[100px] h-[200px] w-1 md:w-auto top-1/2 -translate-y-1/2 md:left-[73%] left-1/2 -translate-x-1/2 md:-translate-x-[73%]' src={line} alt="" />
-                    <div className='w-full md:hidden justify-center gap-10 flex items-center'>
-                        <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+
+                {(Mini || MBA || ABD) && (
+                    <div className='flex md:flex-row flex-col justify-between gap-8 mt-6 shadow-custom-sm py-5 relative drop-shadow-xl shadow-[#0000001A] rounded-[10px] max-w-[1080px] sa:mx-6 mx-3 sa:px-0 px-2 xl:mx-auto'>
+                        <img className='absolute md:block hidden h-[100px] top-1/2 -translate-y-1/2 left-[26%] -translate-x-[26%]' src={line} alt="" />
+                        <img className='absolute md:block hidden h-[100px] top-1/2 -translate-y-1/2 left-[47%] -translate-x-[47%]' src={line} alt="" />
+                        <img className='absolute md:h-[100px] h-[200px] w-1 md:w-auto top-1/2 -translate-y-1/2 md:left-[73%] left-1/2 -translate-x-1/2 md:-translate-x-[73%]' src={line} alt="" />
+                        <div className='w-full md:hidden justify-center gap-10 flex items-center'>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={certificates} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>Plus Certificate</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Official certificate to showcase your professional achievement.</p>
+                            </div>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={UDME} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>3 Free Udemy Course</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Get in depth knowledge of the subject</p>
+                            </div>
+                        </div>
+                        <div className='w-full md:hidden justify-center gap-10 flex items-center'>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={CV} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>Free CV Review</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Expert feedback to improve and polish your resume.</p>
+                            </div>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={linkedin} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>Free LinkedIn Review</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Optimize your LinkedIn profile for better career opportunities.</p>
+                            </div>
+                        </div>
+                        <div className='md:flex hidden flex-col items-center text-center gap-2'>
                             <img className='lf:size-[48px] size-[33px]' src={certificates} alt="" />
                             <p className='lf:text-[17px] text-[14px] font-medium'>Plus Certificate</p>
                             <p className='lf:text-[14px] text-xs font-normal'>Official certificate to showcase your professional achievement.</p>
                         </div>
-                        <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                        <div className='md:flex hidden flex-col items-center text-center gap-2'>
                             <img className='lf:size-[48px] size-[33px]' src={UDME} alt="" />
                             <p className='lf:text-[17px] text-[14px] font-medium'>3 Free Udemy Course</p>
                             <p className='lf:text-[14px] text-xs font-normal'>Get in depth knowledge of the subject</p>
                         </div>
-                    </div>
-                    <div className='w-full md:hidden justify-center gap-10 flex items-center'>
-                        <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                        <div className='md:flex hidden flex-col items-center text-center gap-2'>
                             <img className='lf:size-[48px] size-[33px]' src={CV} alt="" />
                             <p className='lf:text-[17px] text-[14px] font-medium'>Free CV Review</p>
                             <p className='lf:text-[14px] text-xs font-normal'>Expert feedback to improve and polish your resume.</p>
                         </div>
-                        <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                        <div className='md:flex hidden flex-col items-center text-center gap-2'>
                             <img className='lf:size-[48px] size-[33px]' src={linkedin} alt="" />
                             <p className='lf:text-[17px] text-[14px] font-medium'>Free LinkedIn Review</p>
                             <p className='lf:text-[14px] text-xs font-normal'>Optimize your LinkedIn profile for better career opportunities.</p>
                         </div>
                     </div>
-                    <div className='md:flex hidden flex-col items-center text-center gap-2'>
-                        <img className='lf:size-[48px] size-[33px]' src={certificates} alt="" />
-                        <p className='lf:text-[17px] text-[14px] font-medium'>Plus Certificate</p>
-                        <p className='lf:text-[14px] text-xs font-normal'>Official certificate to showcase your professional achievement.</p>
-                    </div>
-                    <div className='md:flex hidden flex-col items-center text-center gap-2'>
-                        <img className='lf:size-[48px] size-[33px]' src={UDME} alt="" />
-                        <p className='lf:text-[17px] text-[14px] font-medium'>3 Free Udemy Course</p>
-                        <p className='lf:text-[14px] text-xs font-normal'>Get in depth knowledge of the subject</p>
-                    </div>
-                    <div className='md:flex hidden flex-col items-center text-center gap-2'>
-                        <img className='lf:size-[48px] size-[33px]' src={CV} alt="" />
-                        <p className='lf:text-[17px] text-[14px] font-medium'>Free CV Review</p>
-                        <p className='lf:text-[14px] text-xs font-normal'>Expert feedback to improve and polish your resume.</p>
-                    </div>
-                    <div className='md:flex hidden flex-col items-center text-center gap-2'>
-                        <img className='lf:size-[48px] size-[33px]' src={linkedin} alt="" />
-                        <p className='lf:text-[17px] text-[14px] font-medium'>Free LinkedIn Review</p>
-                        <p className='lf:text-[14px] text-xs font-normal'>Optimize your LinkedIn profile for better career opportunities.</p>
-                    </div>
+                )}
 
-                </div>
+                {EAD && (
+                    <div className='relative shadow-custom-sm py-5 max-w-[1000px] xl:mx-auto mt-6 sa:mx-6 mx-3 sa:px-0 px-2 drop-shadow-xl shadow-[#0000001A] rounded-[10px]'>
+                        <img className='absolute h-[100px] w-1 md:w-auto top-1/2 -translate-y-1/2 md:left-[50%] left-1/2 -translate-x-1/2 md:-translate-x-[50%]' src={line} alt="" />
+                        <div className='w-full justify-center gap-10 flex relative items-center'>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={certificates} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>Plus Certificate</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Official certificate to showcase your professional achievement.</p>
+                            </div>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={UDME} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>2 Free Udemy Course</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Get in depth knowledge of the subject</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {ED && (
+                    <div className='relative shadow-custom-sm py-5 xl:mx-auto max-w-[1000px] sa:mx-6 mx-3 sa:px-0 px-2 mt-6 drop-shadow-xl shadow-[#0000001A] rounded-[10px]'>
+                        <img className='absolute h-[100px] w-1 md:w-auto top-1/2 -translate-y-1/2 md:left-[50%] left-1/2 -translate-x-1/2 md:-translate-x-[50%]' src={line} alt="" />
+                        <div className='w-full justify-center gap-10 flex relative items-center'>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={certificates} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>Plus Certificate</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Official certificate to showcase your professional achievement.</p>
+                            </div>
+                            <div className='flex sa:w-1/2 w-[100%] flex-col items-center text-center gap-2'>
+                                <img className='lf:size-[48px] size-[33px]' src={UDME} alt="" />
+                                <p className='lf:text-[17px] text-[14px] font-medium'>1 Free Udemy Course</p>
+                                <p className='lf:text-[14px] text-xs font-normal'>Get in depth knowledge of the subject</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {PC && (
+                    <div className='relative shadow-custom-sm py-5 max-w-[500px] xl:mx-auto mt-6 sa:mx-6 mx-3 sa:px-0 px-2 drop-shadow-xl shadow-[#0000001A] rounded-[10px]'>
+                        <div className='flex flex-col items-center justify-center text-center gap-2'>
+                            <img className='lf:size-[48px] size-[33px]' src={certificates} alt="" />
+                            <p className='lf:text-[17px] text-[14px] font-medium'>Plus Certificate</p>
+                            <p className='lf:text-[14px] text-xs font-normal'>Official certificate to showcase your professional achievement.</p>
+                        </div>
+                    </div>
+                )}
+
                 <div className='mt-32 mk:px-24 px-6'>
                     <p className='sh:text-[30px] sp:text-2xl text-lg mh:text-start text-center font-medium'>Learn more about the Program</p>
                     <div className='mh:grid flex flex-col mh:grid-cols-3 mh:gap-20 gap-10 mt-10'>
                         <div className='flex flex-col w-full gap-3'>
                             <p onClick={() => setLearnAbout('program')} className={`mh:p-[10px] p-[6.5px] border border-[#79797940] text-center text-[#002B5B] mh:text-[20px] text-base font-normal cursor-pointer ${learnAbout === 'program' && 'shadow-md shadow-[#00000040]'}`}>Program details</p>
-                            <p onClick={() => setLearnAbout('course')} className={`mh:p-[10px] p-[6.5px] border border-[#79797940] text-center text-[#002B5B] mh:text-[20px] text-base font-normal cursor-pointer ${learnAbout === 'course' && 'shadow-md shadow-[#00000040]'}`}>Course details</p>
+                            {(MBA || ABD) && (
+                                <p onClick={() => setLearnAbout('course')} className={`mh:p-[10px] p-[6.5px] border border-[#79797940] text-center text-[#002B5B] mh:text-[20px] text-base font-normal cursor-pointer ${learnAbout === 'course' && 'shadow-md shadow-[#00000040]'}`}>Course details</p>
+                            )}
                             <p onClick={() => setLearnAbout('acc')} className={`mh:p-[10px] p-[6.5px] border border-[#79797940] text-center text-[#002B5B] mh:text-[20px] text-base font-normal cursor-pointer ${learnAbout === 'acc' && 'shadow-md shadow-[#00000040]'}`}>Accreditations</p>
                             <p onClick={() => setLearnAbout('req')} className={`mh:p-[10px] p-[6.5px] border border-[#79797940] text-center text-[#002B5B] mh:text-[20px] text-base font-normal cursor-pointer ${learnAbout === 'req' && 'shadow-md shadow-[#00000040]'}`}>Program requirements</p>
                         </div>
@@ -205,14 +262,27 @@ const EachPrograms = ({ setOpenCart }) => {
                                 <div className='mt-14 flex flex-col gap-2 mh:ml-9'>
                                     <li className='font-semibold'>Extras Included:</li>
                                     <li className='font-normal ml-11'>Certificate of Completion</li>
-                                    <li className='font-normal ml-11'>3 Free Udemy Courses</li>
-                                    <li className='font-normal ml-11'>CV & LinkedIn Review</li>
+                                    {EAD && (
+                                        <li className='font-normal ml-11'>2 Free Udemy Courses</li>
+                                    )}
+
+                                    {ED && (
+                                        <li className='font-normal ml-11'>1 Free Udemy Course</li>
+                                    )}
+
+                                    {(Mini || MBA || ABD) && (
+                                        <div className='flex flex-col gap-2'>
+                                            <li className='font-normal ml-11'>3 Free Udemy Courses</li>
+                                            <li className='font-normal ml-11'>CV & LinkedIn Review</li>
+                                        </div>
+                                    )}
+
                                 </div>
                             </div>
                         )}
 
                         {learnAbout === 'req' && (
-                            <ul className="list-disc list-inside pl-4 text-sm sm:text-base leading-normal space-y-2">
+                            <ul className="list-disc list-inside col-span-2 pl-4 text-sm sm:text-base leading-normal space-y-2">
                                 <li>No prior degree required</li>
                                 <li>Open to professionals, entrepreneurs, and recent graduates</li>
                                 <li>Must have access to a stable internet connection</li>

@@ -1,20 +1,25 @@
-import ED from '../Images/ExecutiveDiploma.webp'
-import EAD from '../Images/ExecutiveAdvancedDiploma.webp'
-import PC from '../Images/ProfessionalCourses.webp'
-import MINI from '../Images/MiniMBA.webp'
-import projectManager from '../Images/ProjectManager.webp'
+import ED from '../Images/ed.png'
+import EAD from '../Images/ead.png'
+import PC from '../Images/pc.png'
+import MINI from '../Images/mini.png'
+import ABD from '../Images/abd.png'
+import MBA from '../Images/mba.png'
+import projectManager from '../Images/pm.jpg'
+import InformationManagement from '../Images/im.jpg'
 import accounting from '../Images/accounting.webp'
-import businessManagement from '../Images/business_management.webp'
-import CS from '../Images/customer_services.webp'
+import businessManagement from '../Images/bm.png'
+import CS from '../Images/cs.jpg'
 import HumanResourceManagement from '../Images/Human_Resource_Management.webp'
-import IT from '../Images/IT.webp'
+import IT from '../Images/it.jpg'
 import marketing from '../Images/marketing.webp'
 import risKManagement from '../Images/risk_management.webp'
-import salesManagement from '../Images/sales_management.webp'
-import SCM from '../Images/Supply_Chain_Management.webp'
+import salesManagement from '../Images/sm.jpg'
+import SCM from '../Images/scm.jpg'
 import SMM from '../Images/social_media_management.webp'
+import FS from '../Images/fs.jpg'
 import UI from '../Images/UI.webp'
 import graphics from '../Images/graphics.webp'
+import DA from '../Images/DA.jpg'
 import IOT from '../Images/IOT.webp'
 import blockchain from '../Images/blockchain.webp'
 import SQL from '../Images/SQL.webp'
@@ -25,6 +30,7 @@ import excel from '../Images/excel.webp'
 import powerBI from '../Images/power_BI.webp'
 import dart from '../Images/dart.webp'
 import html from '../Images/html.webp'
+import pro from '../Images/pro.jpg'
 import python from '../Images/python.webp'
 import reactNative from '../Images/reactNative.webp'
 import webDev from '../Images/webDev.webp'
@@ -33,6 +39,44 @@ import AI from '../Images/AI.webp'
 import dataScience from '../Images/dataScience.webp'
 import projectManagement from '../Images/projectManagement.webp'
 import frontend from '../Images/Frontend.webp'
+import bigData from '../Images/bigData.jpg'
+import bm from '../Images/bm.jpg'
+import laravel from '../Images/laravel.jpg'
+import java from '../Images/java.jpg'
+import payroll from '../Images/payroll.jpg'
+import crm from '../Images/crm.jpg'
+import bf from '../Images/bf.jpg'
+import cb from '../Images/cb.jpg'
+import pa from '../Images/pa.jpg'
+import ta from '../Images/ta.jpg'
+import hr from '../Images/hr.jpg'
+import ph from '../Images/ph.jpg'
+import pinterest from '../Images/pinterest.jpg'
+import content from '../Images/content.jpg'
+import aicm from '../Images/aicm.jpg'
+import ccm from '../Images/ccm.jpg'
+import Fintech from '../Images/Fintech.jpg'
+import pam from '../Images/pam.jpg'
+import om from '../Images/om.jpg'
+import Hospitality from '../Images/Hospitality.jpg'
+import oa from '../Images/oa.jpg'
+import Procurement from '../Images/Procurement.jpg'
+import Copywriting from '../Images/Copywriting.jpg'
+import dm from '../Images/dm.jpg'
+import me from '../Images/me.jpg'
+import Inventory from '../Images/Inventory.jpg'
+import Materials from '../Images/Materials.jpg'
+import Logistics from '../Images/Logistics.jpg'
+import Warehouse from '../Images/Warehouse.jpg'
+import fm from '../Images/fm.jpg'
+import HSE from '../Images/HSE.jpg'
+import twitter from '../Images/twitter.jpg'
+import facebook from '../Images/facebook.jpg'
+import instagram from '../Images/instagram.jpg'
+import productAnalysis from '../Images/productAnalysis.jpg'
+import wordpress from '../Images/wordpress.jpg'
+import pd from '../Images/pd.jpg'
+import dt from '../Images/dt.webp'
 
 const ProgramDetails = [
     {
@@ -207,7 +251,7 @@ const ProgramDetails = [
     {
         path: '/associate-bachelor-degree',
         programName: 'ASSOCIATE BACHELOR DEGREE',
-        heroImg: EAD,
+        heroImg: ABD,
         heroBigText: 'Build a Strong Business Foundation — with an Ass. Bachelors Degree',
         heroSmallText:
             'Get career-ready with flexible, self-paced Associate Bachelor’s programs in business, marketing, HR, and more. Fully online. Industry-relevant. Globally accessible.',
@@ -216,149 +260,149 @@ const ProgramDetails = [
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/social-media-management",
-                programImg: projectManager,
+                programImg: SMM,
                 programLabel: "Social Media Management",
-                programText: "Master the essentials of social media management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Explore the evolving world of social media and learn to manage digital platforms strategically and effectively.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 159,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Gain a structured education in social media management, combining theory with practical applications suited for real-world industries."
+                note: "This degree blends communication strategies with digital media tools, giving you the academic depth and practical skills to lead online engagement campaigns with confidence."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/customer-service",
-                programImg: projectManager,
+                programImg: CS,
                 programLabel: "Customer Service",
-                programText: "Master the essentials of customer service and build a strong academic foundation for advanced roles in your field.",
+                programText: "Learn to master interpersonal communication and service delivery in today’s customer-centric business world.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 91,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Gain a structured education in customer service, combining theory with practical applications suited for real-world industries."
+                note: "This program equips you with the tools to resolve conflicts, build client loyalty, and deliver exceptional service experiences across industries."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/human-resource-management",
-                programImg: projectManager,
+                programImg: HumanResourceManagement,
                 programLabel: "Human Resource Management",
-                programText: "Master the essentials of human resource management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Gain comprehensive HR skills and theoretical grounding to thrive in organizational leadership and people operations.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 151,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Acquire comprehensive training in human resource management to unlock growth opportunities and lead confidently in today's evolving job market."
+                note: "Dive into the core areas of talent development, workforce planning, and employment law, preparing for professional success and academic progression in HR."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/project-management",
                 programImg: projectManager,
                 programLabel: "Project Management",
-                programText: "Master the essentials of project management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Develop critical thinking and coordination skills to lead successful projects from inception to completion.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 144,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "This degree empowers students with in-depth understanding of project management, preparing them for both career entry and future academic pursuits."
+                note: "Explore project lifecycles, budgeting, and stakeholder communication to prepare for hands-on roles and future studies in management."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/risk-management",
-                programImg: projectManager,
+                programImg: risKManagement,
                 programLabel: "Risk Management",
-                programText: "Master the essentials of risk management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Learn to identify, assess, and mitigate organizational risks in dynamic economic environments.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 108,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Gain a structured education in risk management, combining theory with practical applications suited for real-world industries."
+                note: "This course builds analytical and decision-making skills to manage uncertainty and protect business value in a wide range of industries."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/sales-management",
-                programImg: projectManager,
+                programImg: salesManagement,
                 programLabel: "Sales Management",
-                programText: "Master the essentials of sales management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Develop strong foundational knowledge in sales strategy, leadership, and client relationship building.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 92,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Learn core concepts and professional strategies in sales management, designed to enhance your capabilities in global work environments."
+                note: "From understanding buyer behavior to building high-performing sales teams, this program prepares students for real-world sales leadership roles."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/information-management",
-                programImg: projectManager,
+                programImg: InformationManagement,
                 programLabel: "Information Management",
-                programText: "Master the essentials of information management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Build a solid academic base in managing data systems, digital records, and information flow across organizations.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 102,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Learn core concepts and professional strategies in information management, designed to enhance your capabilities in global work environments."
+                note: "This course blends IT principles with administrative management to help students navigate modern information ecosystems efficiently."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/supply-chain-management",
-                programImg: projectManager,
+                programImg: SCM,
                 programLabel: "Supply Chain Management",
-                programText: "Master the essentials of supply chain management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Understand global logistics, operations, and supplier networks in this hands-on degree built for future-ready professionals.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 72,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Build academic and industry-ready competence in supply chain management through a curriculum crafted to promote applied learning and skill development."
+                note: "The curriculum connects theory with industry practices—equipping you to manage procurement, inventory, and distribution systems."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/marketing",
-                programImg: projectManager,
+                programImg: marketing,
                 programLabel: "Marketing",
-                programText: "Master the essentials of marketing and build a strong academic foundation for advanced roles in your field.",
+                programText: "Master essential marketing principles from branding to analytics, rooted in academic theory and market trends.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 148,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "This degree empowers students with in-depth understanding of marketing, preparing them for both career entry and future academic pursuits."
+                note: "This degree opens doors in digital marketing, consumer behavior, and strategy, providing real-world insights into driving business growth."
             },
             {
                 addToCart: false,
                 projectPath: "/associate-bachelor-degree/accounting",
-                programImg: projectManager,
+                programImg: accounting,
                 programLabel: "Accounting",
-                programText: "Master the essentials of accounting and build a strong academic foundation for advanced roles in your field.",
+                programText: "Build a thorough understanding of accounting standards, financial reporting, and managerial decision-making.",
                 programPrice: "12",
                 programName: "ASSOCIATE BACHELORS DEGREE",
                 reviews: 86,
                 duration: "2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Associate Bachelors Degrees upon completion",
-                note: "Gain a structured education in accounting, combining theory with practical applications suited for real-world industries."
+                note: "This program combines academic theory with accounting software training to prepare learners for entry-level finance roles and continued study."
             }
         ]
     },
     {
         path: '/executive-mba',
         programName: 'EXECUTIVE MBA',
-        heroImg: EAD,
+        heroImg: MBA,
         heroBigText: 'Lead with Impact — Earn Your Executive MBA Online',
         heroSmallText:
             'Accelerate your leadership journey with advanced business training built for professionals.Flexible. Globally recognized. Career-transforming.',
@@ -367,128 +411,128 @@ const ProgramDetails = [
             {
                 addToCart: false,
                 projectPath: "/executive-mba/business-management",
-                programImg: projectManager,
+                programImg: businessManagement,
                 programLabel: "Business Management",
-                programText: "Develop foundational expertise in business management, covering leadership, strategy, and operations to prepare for impactful roles in the corporate world.",
+                programText: "Explore modern business leadership, sharpen your strategic thinking, and drive operational success across global industries.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 159,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Gain a structured education in business management, blending core theoretical frameworks with practical case studies to prepare for leadership in diverse industries."
+                note: "This program blends analytical and managerial expertise with real-world scenarios, equipping executives to lead effectively in a dynamic business world."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/information-management",
-                programImg: projectManager,
+                programImg: InformationManagement,
                 programLabel: "Information Management",
-                programText: "Master the essentials of information management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Build executive-level insight into data governance, system design, and information strategy for the modern enterprise.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 102,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Learn core concepts and professional strategies in information management, designed to enhance your capabilities in global work environments."
+                note: "Prepare to lead in information-driven organizations with a curriculum that emphasizes digital ecosystems, data ethics, and scalable solutions."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/human-resource-management",
-                programImg: projectManager,
+                programImg: HumanResourceManagement,
                 programLabel: "Human Resource Management",
-                programText: "Master the essentials of human resource management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Advance your HR leadership with executive-level training in talent strategy, workforce development, and organizational change.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 151,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Acquire comprehensive training in human resource management to unlock growth opportunities and lead confidently in today's evolving job market."
+                note: "This program empowers senior HR professionals with tools to shape workplace culture, influence policy, and drive people-centered innovation."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/accounting",
-                programImg: projectManager,
+                programImg: accounting,
                 programLabel: "Accounting",
-                programText: "Master the essentials of accounting and build a strong academic foundation for advanced roles in your field.",
+                programText: "Gain strategic mastery of accounting systems, financial reporting, and executive-level fiscal analysis.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 86,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Gain a structured education in accounting, combining theory with practical applications suited for real-world industries."
+                note: "Designed for professionals aiming to lead in finance, this program balances accounting theory with advanced tools and executive insights."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/risk-management",
-                programImg: projectManager,
+                programImg: risKManagement,
                 programLabel: "Risk Management",
-                programText: "Master the essentials of risk management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Navigate uncertainty with advanced knowledge in enterprise risk, compliance, and strategic mitigation planning.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 108,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Gain a structured education in risk management, combining theory with practical applications suited for real-world industries."
+                note: "This program trains executives to assess, anticipate, and manage complex risks across global operations and industries."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/project-management",
-                programImg: projectManager,
+                programImg: projectManagement,
                 programLabel: "Project Management",
-                programText: "Master the essentials of project management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Lead complex initiatives by mastering executive tools in planning, execution, budgeting, and agile delivery.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 144,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "This degree empowers students with in-depth understanding of project management, preparing them for both career entry and future academic pursuits."
+                note: "The curriculum focuses on executive project leadership and the integration of cross-functional strategies for long-term success."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/marketing",
-                programImg: projectManager,
+                programImg: marketing,
                 programLabel: "Marketing",
-                programText: "Master the essentials of marketing and build a strong academic foundation for advanced roles in your field.",
+                programText: "Design powerful marketing strategies and manage global campaigns through executive-level insight and analytics.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 148,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "This degree empowers students with in-depth understanding of marketing, preparing them for both career entry and future academic pursuits."
+                note: "This program develops senior marketing leaders with a sharp focus on branding, market behavior, digital trends, and customer experience."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/supply-chain-management",
-                programImg: projectManager,
+                programImg: SCM,
                 programLabel: "Supply Chain Management",
-                programText: "Master the essentials of supply chain management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Transform global logistics and supply networks through advanced planning, risk analysis, and tech-driven optimization.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 72,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Build academic and industry-ready competence in supply chain management through a curriculum crafted to promote applied learning and skill development."
+                note: "Train to lead global supply systems with a focus on resilience, cost-efficiency, sustainability, and operational excellence."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-mba/sales-management",
-                programImg: projectManager,
+                programImg: salesManagement,
                 programLabel: "Sales Management",
-                programText: "Master the essentials of sales management and build a strong academic foundation for advanced roles in your field.",
+                programText: "Lead sales teams and drive revenue with executive-level expertise in customer engagement and performance strategy.",
                 programPrice: "12",
                 programName: "EXECUTIVE MBA",
                 reviews: 92,
                 duration: "6 Months - 2 Years",
                 mode: "Online & Self-Paced",
                 certificate: "Executive MBA certificate upon completion",
-                note: "Learn core concepts and professional strategies in sales management, designed to enhance your capabilities in global work environments."
+                note: "Focused on high-level sales leadership, this program combines behavioral science, analytics, and performance management to scale results."
             }
         ]
     },
@@ -680,7 +724,7 @@ const ProgramDetails = [
         ],
     },
     {
-        path: '/professional-courses',
+        path: '/professional-certificate',
         programName: 'PROFESSIONAL COURSES',
         heroImg: PC,
         heroBigText: 'Get Certified in Just 14 Days with Our Professional Online Courses',
@@ -689,1025 +733,1011 @@ const ProgramDetails = [
         programDetails: [
             {
                 addToCart: false,
-                projectPath: "/professional-courses/fullstack-development",
-                programImg: IT,
+                projectPath: "/professional-certificate/fullstack-development",
+                programImg: FS,
                 programLabel: "Fullstack Development",
-                programText: "Master the core concepts of fullstack development with real-world projects and expert-led instruction.",
+                programText: "Become a versatile fullstack developer by learning both frontend and backend technologies in an immersive, hands-on environment.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "574",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Fullstack Development",
-                note: "This course offers a comprehensive dive into fullstack development, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course is designed to turn you into a confident fullstack developer, capable of building complete web applications from scratch. You'll dive into both client-side and server-side programming, learn popular frameworks, and complete guided projects that reflect real-world challenges. Whether you're pivoting into tech or upskilling, this path ensures you're industry-ready with a well-rounded developer skill set."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/frontend-development",
-                programImg: IT,
+                projectPath: "/professional-certificate/frontend-development",
+                programImg: frontend,
                 programLabel: "Frontend Development",
-                programText: "Master the core concepts of frontend development with real-world projects and expert-led instruction.",
+                programText: "Build visually stunning, user-centric web interfaces by mastering the tools and techniques of modern frontend development.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "748",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Frontend Development",
-                note: "This course offers a comprehensive dive into frontend development, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This intensive program focuses on frontend development essentials including HTML, CSS, JavaScript, and cutting-edge frameworks like React. Through structured lessons and portfolio projects, you’ll gain the skills to craft responsive and dynamic user experiences. By the end, you’ll not only understand how frontend systems work but also be able to collaborate effectively with designers and backend teams."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/ui-ux-design",
-                programImg: IT,
+                projectPath: "/professional-certificate/ui-ux-design",
+                programImg: UI,
                 programLabel: "UI-UX Design",
-                programText: "Master the core concepts of ui-ux design with real-world projects and expert-led instruction.",
+                programText: "Craft seamless and engaging digital experiences with a deep dive into user interface and user experience design principles.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1984",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in UI-UX Design",
-                note: "This course offers a comprehensive dive into ui-ux design, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course offers a practical and strategic approach to UI/UX design, blending design theory with real-life application. You'll explore usability, interaction design, wireframing, prototyping, and user research. By working on live design problems, you'll develop a designer’s mindset and the skills to create digital products that are both functional and aesthetically compelling. Perfect for aspiring designers or product creators looking to enhance usability and engagement."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/graphic-design",
-                programImg: IT,
+                projectPath: "/professional-certificate/graphic-design",
+                programImg: graphics,
                 programLabel: "Graphic Design",
-                programText: "Master the core concepts of graphic design with real-world projects and expert-led instruction.",
+                programText: "Unleash your creativity and technical skills to produce visually compelling graphics across digital and print platforms.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "836",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Graphic Design",
-                note: "This course offers a comprehensive dive into graphic design, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Dive into the dynamic world of graphic design where creativity meets communication. This course teaches design fundamentals, branding, layout techniques, color theory, and industry-standard tools like Adobe Photoshop and Illustrator. Whether you're designing social media assets, marketing materials, or logos, you’ll walk away with a strong portfolio and the ability to turn ideas into striking visuals that captivate and inform."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/business--data-analyst",
-                programImg: IT,
+                projectPath: "/professional-certificate/business--data-analyst",
+                programImg: DA,
                 programLabel: "Business - Data Analyst",
-                programText: "Master the core concepts of business - data analyst with real-world projects and expert-led instruction.",
+                programText: "Discover the analytical mindset and tools needed to turn raw business data into powerful strategic insights.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1728",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Business - Data Analyst",
-                note: "This course offers a comprehensive dive into business - data analyst, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This business-data analyst course combines technical instruction with real-world application to help you uncover trends and make data-driven decisions. You’ll learn how to collect, clean, and analyze data using tools like Excel, SQL, and Tableau. By working with datasets from multiple industries, you’ll develop the ability to communicate insights effectively and help organizations optimize their operations and growth strategies."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/iot-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/iot-pro-course",
+                programImg: IOT,
                 programLabel: "IoT Pro Course",
-                programText: "Master the core concepts of iot pro course with real-world projects and expert-led instruction.",
+                programText: "Step into the future of connectivity and automation with comprehensive training in Internet of Things (IoT) systems and applications.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1369",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in IoT Pro Course",
-                note: "This course offers a comprehensive dive into iot pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "In this course, you'll explore the architecture, protocols, and hardware behind IoT systems. From smart homes to industrial sensors, you'll learn how IoT is transforming industries. Through hands-on labs and project development, you’ll gain the skills to build and manage IoT solutions that collect, transmit, and analyze data at scale. Ideal for tech professionals looking to specialize in this rapidly expanding field."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/blockchain-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/blockchain-pro-course",
+                programImg: blockchain,
                 programLabel: "Blockchain Pro Course",
-                programText: "Master the core concepts of blockchain pro course with real-world projects and expert-led instruction.",
+                programText: "Understand the revolutionary concepts behind blockchain technology and explore its applications beyond cryptocurrency.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1641",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Blockchain Pro Course",
-                note: "This course offers a comprehensive dive into blockchain pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This in-depth course demystifies blockchain by guiding you through its core principles, such as decentralization, cryptography, consensus models, and smart contracts. With real-world case studies and practice exercises, you'll build blockchain-based solutions and understand their use across industries like finance, logistics, and identity management. This is your gateway to one of the most disruptive innovations of our time."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/sql-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/sql-pro-course",
+                programImg: SQL,
                 programLabel: "SQL Pro Course",
-                programText: "Master the core concepts of sql pro course with real-world projects and expert-led instruction.",
+                programText: "Master SQL from beginner to advanced and gain the skills to manipulate, query, and analyze data effectively.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "874",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in SQL Pro Course",
-                note: "This course offers a comprehensive dive into sql pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course walks you through structured query language (SQL) in detail—from basic CRUD operations to complex joins, subqueries, and performance tuning. Whether you're managing databases or building reports, this course equips you to handle real-world data analysis tasks with confidence. You’ll also gain exposure to relational database management systems like MySQL and PostgreSQL, making this an essential toolkit for any data-driven career."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/devops-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/devops-pro-course",
+                programImg: devops,
                 programLabel: "DevOps Pro Course",
-                programText: "Master the core concepts of devops pro course with real-world projects and expert-led instruction.",
+                programText: "Gain the expertise to streamline software development and IT operations through DevOps practices and automation tools.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "370",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in DevOps Pro Course",
-                note: "This course offers a comprehensive dive into devops pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "In this DevOps Pro Course, you'll dive into the philosophy and technical stack behind continuous integration, deployment pipelines, and infrastructure as code. From Docker and Kubernetes to Jenkins and GitHub Actions, you’ll learn how to build resilient systems that scale efficiently. This course is ideal for engineers looking to bridge development and operations for faster, more reliable product delivery."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/networking-programming-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/networking-programming-course",
+                programImg: network,
                 programLabel: "Networking Programming Course",
-                programText: "Master the core concepts of networking programming course with real-world projects and expert-led instruction.",
+                programText: "Explore the foundations of computer networking and programming in one comprehensive, project-based learning experience.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1663",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Networking Programming Course",
-                note: "This course offers a comprehensive dive into networking programming course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Designed for those seeking to understand how systems communicate, this course covers the essentials of TCP/IP, routing, switching, and network security alongside Python-based scripting. You’ll apply your knowledge to build and troubleshoot networks, write automation scripts, and simulate data communication in real-world scenarios. Whether entering IT or cybersecurity, these are foundational skills you’ll rely on."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/cyber-security-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/cyber-security-pro-course",
+                programImg: cyber,
                 programLabel: "Cyber Security Pro Course",
-                programText: "Master the core concepts of cyber security pro course with real-world projects and expert-led instruction.",
+                programText: "Defend digital assets and systems by mastering the essentials of cybersecurity operations and ethical hacking.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "245",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Cyber Security Pro Course",
-                note: "This course offers a comprehensive dive into cyber security pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course provides a robust introduction to the core principles of cybersecurity, including threat identification, penetration testing, cryptography, and risk mitigation. With labs and simulated attacks, you’ll learn how to protect networks, secure information, and stay ahead of cyber threats. Ideal for aspiring security analysts or anyone working in tech who wants to strengthen their defense skills."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/microsoft-excel-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/microsoft-excel-pro-course",
+                programImg: excel,
                 programLabel: "Microsoft Excel Pro Course",
-                programText: "Master the core concepts of microsoft excel pro course with real-world projects and expert-led instruction.",
+                programText: "Take control of data and boost your productivity by mastering the full capabilities of Microsoft Excel.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1602",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Microsoft Excel Pro Course",
-                note: "This course offers a comprehensive dive into microsoft excel pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Whether you’re working in finance, admin, analytics, or project management, Excel is a must-have tool. This course dives deep into formulas, pivot tables, data visualization, automation with macros, and real-life use cases. You’ll gain the ability to turn spreadsheets into decision-making tools and significantly enhance your productivity with practical business insights at your fingertips."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/power-bi-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/power-bi-pro-course",
+                programImg: powerBI,
                 programLabel: "Power Bi  Pro Course",
-                programText: "Master the core concepts of power bi  pro course with real-world projects and expert-led instruction.",
+                programText: "Transform data into actionable insights through advanced Power BI dashboards and real-time reporting solutions.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1428",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Power Bi  Pro Course",
-                note: "This course offers a comprehensive dive into power bi  pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course equips you to build interactive dashboards, clean and model data, and leverage DAX to create meaningful KPIs and reports. From importing datasets to publishing insights for stakeholders, you’ll learn the end-to-end process of delivering business intelligence with Power BI. Perfect for professionals who need to tell data stories and support strategic decisions through powerful visualizations."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/dart-programming-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/dart-programming-course",
+                programImg: dart,
                 programLabel: "Dart Programming Course",
-                programText: "Master the core concepts of dart programming course with real-world projects and expert-led instruction.",
+                programText: "Get started with modern app development by mastering Dart programming and its ecosystem, including Flutter integration.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1328",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Dart Programming Course",
-                note: "This course offers a comprehensive dive into dart programming course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Learn to code in Dart—a fast-growing, object-oriented language used primarily for building mobile apps with Flutter. This course covers syntax, functions, OOP principles, and error handling through real-world app scenarios. Ideal for beginners and experienced coders looking to expand their toolkit for mobile-first development, this course sets the foundation for cross-platform success."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/programming-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/programming-course",
+                programImg: pro,
                 programLabel: "Programming Course",
-                programText: "Master the core concepts of programming course with real-world projects and expert-led instruction.",
+                programText: "Build a solid foundation in programming by exploring essential concepts and coding practices across multiple languages.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1576",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Programming Course",
-                note: "This course offers a comprehensive dive into programming course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This foundational course introduces students to core programming constructs such as loops, conditions, variables, functions, and data structures. Through hands-on exercises and mini-projects in languages like Python and JavaScript, you’ll develop the problem-solving mindset needed to succeed in any tech role. A perfect launchpad for beginners aiming to enter the world of software development."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/html-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/html-pro-course",
+                programImg: html,
                 programLabel: "HTML Pro Course",
-                programText: "Master the core concepts of html pro course with real-world projects and expert-led instruction.",
+                programText: "Unlock the full potential of HTML and learn how to build modern, responsive, and well-structured web pages from scratch.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "186",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in HTML Pro Course",
-                note: "This course offers a comprehensive dive into html pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course provides an in-depth exploration of HTML, the foundational language of the web. Through hands-on projects and interactive lessons, you'll learn not only the syntax but also how to structure semantic content, manage forms, embed media, and ensure accessibility. Whether you're new to coding or brushing up on web development basics, this course will strengthen your ability to create fast, clean, and professional-grade websites."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/python-pro-course",
-                programImg: IT,
+                projectPath: "/professional-certificate/python-pro-course",
+                programImg: python,
                 programLabel: "Python Pro Course",
-                programText: "Master the core concepts of python pro course with real-world projects and expert-led instruction.",
+                programText: "Explore Python's versatility and harness its power to solve real-world challenges in automation, data, and software development.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "392",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Python Pro Course",
-                note: "This course offers a comprehensive dive into python pro course, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This comprehensive course introduces Python programming in a way that’s approachable yet deeply practical. You'll gain a solid foundation in syntax and data structures while also diving into real-world applications such as automation, file handling, web scraping, and basic data analytics. With guided projects and hands-on exercises, learners develop the confidence and ability to write Python code that solves real business and technical problems effectively."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/react-native",
-                programImg: IT,
+                projectPath: "/professional-certificate/react-native",
+                programImg: reactNative,
                 programLabel: "React Native",
-                programText: "Master the core concepts of react native with real-world projects and expert-led instruction.",
+                programText: "Build cross-platform mobile apps with ease using React Native and bring your ideas to both Android and iOS users.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1944",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in React Native",
-                note: "This course offers a comprehensive dive into react native, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Dive into the world of mobile app development with this powerful React Native course. It’s designed to help you understand core principles such as component-based architecture, state management, and device-native features like geolocation and camera access. With practical examples and real mobile application builds, you’ll gain the skills to build high-performance apps with elegant UIs and seamless user experiences for a wide audience."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/web-development",
-                programImg: IT,
+                projectPath: "/professional-certificate/web-development",
+                programImg: webDev,
                 programLabel: "Web Development",
-                programText: "Master the core concepts of web development with real-world projects and expert-led instruction.",
+                programText: "Learn to develop modern, full-featured websites using industry-standard tools and practices in front-end and back-end development.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "488",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Web Development",
-                note: "This course offers a comprehensive dive into web development, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course walks you through the essentials of building websites and web applications from the ground up. You’ll start with HTML, CSS, and JavaScript for the front end, and advance into back-end technologies like Node.js or databases. By combining theory with hands-on projects, learners leave with a portfolio-ready skill set and a solid grasp of modern development workflows, version control, and responsive design techniques that power today’s websites."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/cloud-computing",
-                programImg: IT,
+                projectPath: "/professional-certificate/cloud-computing",
+                programImg: cloud,
                 programLabel: "Cloud Computing",
-                programText: "Master the core concepts of cloud computing with real-world projects and expert-led instruction.",
+                programText: "Master cloud infrastructure and services, and discover how to deploy, scale, and manage applications in a distributed environment.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "799",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Cloud Computing",
-                note: "This course offers a comprehensive dive into cloud computing, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Explore the evolving world of cloud technology in this foundational course tailored for professionals looking to adapt to the future of computing. You’ll gain hands-on experience with cloud service models (IaaS, PaaS, SaaS), understand deployment frameworks, and explore cloud security, virtualization, and storage. This course empowers you with the know-how to migrate and manage systems in cloud platforms like AWS, Azure, or Google Cloud with confidence."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/artificial-intelligence",
-                programImg: IT,
+                projectPath: "/professional-certificate/artificial-intelligence",
+                programImg: AI,
                 programLabel: "Artificial Intelligence",
-                programText: "Master the core concepts of artificial intelligence with real-world projects and expert-led instruction.",
+                programText: "Step into the realm of artificial intelligence and learn how to build systems that think, learn, and adapt.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1385",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Artificial Intelligence",
-                note: "This course offers a comprehensive dive into artificial intelligence, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "In this course, learners are introduced to the fascinating world of AI—from machine learning algorithms to intelligent decision-making systems. You’ll explore supervised and unsupervised learning, neural networks, and real-life use cases such as recommendation engines and chatbots. This is more than just theory; each module comes with practical implementations using tools like Python and TensorFlow, preparing you for future roles in automation and intelligent system design."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/big-data",
-                programImg: IT,
+                projectPath: "/professional-certificate/big-data",
+                programImg: bigData,
                 programLabel: "Big Data",
-                programText: "Master the core concepts of big data with real-world projects and expert-led instruction.",
+                programText: "Dive into the complexities of big data and learn how to collect, analyze, and visualize massive datasets effectively.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "431",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Big Data",
-                note: "This course offers a comprehensive dive into big data, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Designed for the data-driven professional, this course explores the tools and technologies needed to handle large-scale data. You’ll learn the principles of distributed systems like Hadoop and Spark, explore data ingestion pipelines, and gain exposure to structured and unstructured data handling. By the end of this course, you’ll be able to derive actionable insights from big data sets and support data-driven decision-making in any organization."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/data-science",
-                programImg: IT,
+                projectPath: "/professional-certificate/data-science",
+                programImg: dataScience,
                 programLabel: "Data Science",
-                programText: "Master the core concepts of data science with real-world projects and expert-led instruction.",
+                programText: "Transform data into insights and drive intelligent decision-making through the power of data science.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1790",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Data Science",
-                note: "This course offers a comprehensive dive into data science, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This immersive course walks you through the entire data science pipeline, from data collection and cleaning to analysis and predictive modeling. Using Python and essential libraries like Pandas, NumPy, and Scikit-learn, you’ll build your understanding of statistical analysis, machine learning, and data visualization. Whether you’re entering the field or upskilling, this course gives you the edge to work with real data and build intelligent solutions that matter."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/social-media-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/social-media-management",
+                programImg: SMM,
                 programLabel: "Social Media Management",
-                programText: "Master the core concepts of social media management with real-world projects and expert-led instruction.",
+                programText: "Develop the skills to strategize, manage, and grow powerful social media campaigns across major platforms.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "346",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Social Media Management",
-                note: "This course offers a comprehensive dive into social media management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course delivers an actionable framework for mastering the tools and strategies needed in the fast-paced world of social media. You'll learn how to craft compelling content, manage brand identity, schedule posts with efficiency, and track engagement using industry-standard analytics tools. From organic growth to paid advertising, this course equips you to plan and execute high-converting campaigns on platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok. Ideal for aspiring digital marketers, brand managers, and entrepreneurs looking to amplify their digital presence."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/human-resource-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/human-resource-management",
+                programImg: HumanResourceManagement,
                 programLabel: "Human Resource Management",
-                programText: "Master the core concepts of human resource management with real-world projects and expert-led instruction.",
+                programText: "Gain a thorough understanding of HR practices and learn how to lead, manage, and support a thriving workforce.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "963",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Human Resource Management",
-                note: "This course offers a comprehensive dive into human resource management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course is built for future HR leaders seeking to understand every facet of employee lifecycle management. You'll explore key HR functions such as recruitment, onboarding, performance evaluation, employee relations, compliance, and organizational culture. Through real-world scenarios and case studies, you’ll also gain insights into labor law, conflict resolution, compensation strategies, and leadership development. Whether you aim to join a corporate HR team or manage people within your business, this course provides essential tools for building and sustaining a productive workforce."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/project-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/product-management",
+                programImg: projectManagement,
                 programLabel: "Project Management",
-                programText: "Master the core concepts of project management with real-world projects and expert-led instruction.",
+                programText: "Learn how to initiate, plan, execute, and close successful projects on time and within budget.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
-                reviews: "387",
+                reviews: "1722",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Project Management",
-                note: "This course offers a comprehensive dive into project management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This comprehensive course offers a deep dive into the principles and methodologies of modern project management. You’ll explore tools like Gantt charts, risk assessments, and stakeholder management strategies, while mastering frameworks such as Agile, Scrum, and Waterfall. Through simulations and guided exercises, you'll practice breaking down project requirements, building timelines, allocating resources, and managing teams. This course prepares you to lead projects of any size with confidence and clarity, making it ideal for managers, team leads, and coordinators across industries."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/customer-service",
-                programImg: IT,
+                projectPath: "/professional-certificate/customer-service",
+                programImg: CS,
                 programLabel: "Customer Service",
-                programText: "Master the core concepts of customer service with real-world projects and expert-led instruction.",
+                programText: "Master the art of exceptional customer service and deliver positive experiences that build lasting brand loyalty.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1270",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Customer Service",
-                note: "This course offers a comprehensive dive into customer service, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Designed for both front-line staff and team supervisors, this course focuses on delivering high-impact customer service in any business setting. You’ll learn the psychology of customer behavior, techniques for handling complaints, and methods to exceed expectations in both in-person and digital interactions. Using practical case studies, the course addresses tone, empathy, product knowledge, and crisis resolution strategies to turn frustrated clients into loyal advocates. Ideal for professionals who want to enhance their communication and customer handling skills."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/risk-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/risk-management",
+                programImg: risKManagement,
                 programLabel: "Risk Management",
-                programText: "Master the core concepts of risk management with real-world projects and expert-led instruction.",
+                programText: "Identify, assess, and mitigate risks with strategic planning tools that safeguard business goals.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "806",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Risk Management",
-                note: "This course offers a comprehensive dive into risk management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course offers an analytical approach to recognizing, evaluating, and responding to a wide range of organizational risks. Whether it's financial, operational, compliance-based, or reputational, you’ll gain the skills needed to perform risk assessments and implement mitigation strategies. You'll also explore the use of risk matrices, audits, control systems, and compliance standards like ISO 31000. With real-life case studies and actionable frameworks, this course prepares professionals to make informed decisions that protect and sustain business value."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/marketing",
-                programImg: IT,
+                projectPath: "/professional-certificate/marketing",
+                programImg: marketing,
                 programLabel: "Marketing",
-                programText: "Master the core concepts of marketing with real-world projects and expert-led instruction.",
+                programText: "Learn how to attract, engage, and convert audiences using modern marketing principles and strategies.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1906",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Marketing",
-                note: "This course offers a comprehensive dive into marketing, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Dive into the full spectrum of marketing fundamentals, from understanding consumer behavior to executing cross-channel campaigns. This course covers both digital and traditional marketing techniques, including branding, copywriting, SEO, email marketing, influencer campaigns, and performance analytics. You’ll also explore segmentation, targeting, and positioning to design strategies that drive real business growth. Perfect for marketers, entrepreneurs, or anyone looking to master the art of persuasion and brand visibility in a competitive marketplace."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/accounting",
-                programImg: IT,
+                projectPath: "/professional-certificate/accounting",
+                programImg: accounting,
                 programLabel: "Accounting",
-                programText: "Master the core concepts of accounting with real-world projects and expert-led instruction.",
+                programText: "Build a solid foundation in accounting principles, financial reporting, and business budgeting essentials.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "268",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Accounting",
-                note: "This course offers a comprehensive dive into accounting, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This beginner-friendly course demystifies accounting concepts and introduces learners to the language of business finance. You'll understand how to read financial statements, track revenue and expenses, and calculate key performance indicators. Topics include double-entry bookkeeping, ledgers, trial balances, and profit/loss analysis. Practical exercises reinforce your knowledge of budgeting and tax considerations. Whether you’re preparing for a role in finance or simply want to manage your personal or business accounts more effectively, this course delivers core competencies that matter."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/sales-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/sales-management",
+                programImg: salesManagement,
                 programLabel: "Sales Management",
-                programText: "Master the core concepts of sales management with real-world projects and expert-led instruction.",
+                programText: "Discover how to lead high-performing sales teams and drive consistent revenue growth through strategy and motivation.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1565",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Sales Management",
-                note: "This course offers a comprehensive dive into sales management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course teaches you how to build, motivate, and manage sales teams using proven methodologies. You’ll gain insight into pipeline forecasting, performance metrics, sales coaching, and negotiation strategies. You'll also explore CRM tools and digital sales platforms that streamline prospecting and follow-ups. Perfect for aspiring sales managers or entrepreneurs, this course helps you align sales objectives with business goals, manage team morale, and close deals effectively in fast-paced environments."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/information-technology",
+                projectPath: "/professional-certificate/information-technology",
                 programImg: IT,
                 programLabel: "Information Technology",
-                programText: "Master the core concepts of information technology with real-world projects and expert-led instruction.",
+                programText: "Explore IT systems, networking, and security while building hands-on skills to support enterprise-level tech environments.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "255",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Information Technology",
-                note: "This course offers a comprehensive dive into information technology, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course is a complete guide to understanding the foundations of modern IT infrastructure. It covers networking basics, system administration, database management, cloud integration, and cybersecurity protocols. You’ll also learn how to troubleshoot hardware/software issues, configure devices, and maintain secure IT environments. This practical course is designed for tech enthusiasts, office managers, or anyone seeking a career path in IT support, systems analysis, or network management."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/supply-chain-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/supply-chain-management",
+                programImg: SCM,
                 programLabel: "Supply Chain Management",
-                programText: "Master the core concepts of supply chain management with real-world projects and expert-led instruction.",
+                programText: "Understand the flow of goods, information, and services to optimize operations across the entire supply chain.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "421",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Supply Chain Management",
-                note: "This course offers a comprehensive dive into supply chain management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course provides a practical and strategic overview of supply chain operations, covering procurement, logistics, inventory control, demand planning, and supplier relationship management. You’ll explore global sourcing strategies, warehouse systems, distribution networks, and how data drives decision-making in modern supply chains. With hands-on simulations and industry case studies, learners develop the ability to enhance efficiency, reduce costs, and manage risks in complex supply networks—skills that are vital in today's interconnected business world."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/product-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/product-management",
+                programImg: projectManagement,
                 programLabel: "Product Management",
-                programText: "Master the core concepts of product management with real-world projects and expert-led instruction.",
+                programText: "Lead the creation and growth of successful products by mastering the tools and mindset of a product manager.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1722",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Product Management",
-                note: "This course offers a comprehensive dive into product management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course immerses you in the lifecycle of product development, from idea generation and market research to launch and optimization. You’ll gain skills in stakeholder communication, roadmap planning, feature prioritization, and agile methodologies. Whether working with engineers, designers, or marketing teams, you’ll learn to align cross-functional efforts toward user-centered solutions. This program equips aspiring product managers with a strategic toolkit to lead innovation, measure impact, and build products that deliver lasting value in dynamic markets."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/product-design",
-                programImg: IT,
+                projectPath: "/professional-certificate/product-design",
+                programImg: pd,
                 programLabel: "Product Design",
-                programText: "Master the core concepts of product design with real-world projects and expert-led instruction.",
+                programText: "Combine creativity and usability to design products that are intuitive, impactful, and user-focused.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1239",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Product Design",
-                note: "This course offers a comprehensive dive into product design, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This hands-on course explores the full spectrum of product design—from user research and wireframing to visual aesthetics and interaction design. You'll dive into tools like Figma or Sketch, apply design thinking principles, and test your ideas through prototyping and user feedback. Emphasis is placed on creating accessible, functional, and beautiful interfaces that solve real problems. Ideal for aspiring designers, this course helps you build a portfolio while sharpening the critical thinking and creativity needed to thrive in tech and product-driven industries."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/design-thinking",
-                programImg: IT,
+                projectPath: "/professional-certificate/design-thinking",
+                programImg: dt,
                 programLabel: "Design Thinking",
-                programText: "Master the core concepts of design thinking with real-world projects and expert-led instruction.",
+                programText: "Discover how to solve complex problems creatively through human-centered design approaches and innovation frameworks.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "439",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Design Thinking",
-                note: "This course offers a comprehensive dive into design thinking, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This immersive course guides learners through each stage of the design thinking process—from empathizing with users to prototyping solutions and testing ideas. You’ll explore real-world case studies, ideation techniques, and collaborative problem-solving strategies that foster creativity, agility, and innovation. Whether you're in tech, education, or entrepreneurship, this course provides practical tools for designing impactful and user-driven solutions."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/brand-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/brand-management",
+                programImg: bm,
                 programLabel: "Brand Management",
-                programText: "Master the core concepts of brand management with real-world projects and expert-led instruction.",
+                programText: "Build and grow powerful brands through strategic storytelling, visual identity, and market positioning.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1997",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Brand Management",
-                note: "This course offers a comprehensive dive into brand management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course explores the mechanics of building successful brands that resonate with audiences and stand out in competitive markets. You'll learn how to define brand voice, manage perception, create campaigns, and monitor brand equity. With examples from global companies and exercises in brand storytelling, positioning, and consistency, this course equips learners with the tools to manage brands that thrive and evolve over time."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/laravel-programming",
-                programImg: IT,
+                projectPath: "/professional-certificate/laravel-programming",
+                programImg: laravel,
                 programLabel: "Laravel Programming",
-                programText: "Master the core concepts of laravel programming with real-world projects and expert-led instruction.",
+                programText: "Create robust, scalable, and secure web applications using Laravel’s powerful PHP framework.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "257",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Laravel Programming",
-                note: "This course offers a comprehensive dive into laravel programming, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Learn how to build dynamic and secure web apps using Laravel, one of the most popular PHP frameworks. This course covers routing, middleware, Blade templating, database migrations, and RESTful API development. With real-world projects and a hands-on approach, you’ll gain the skills to architect modern applications efficiently while maintaining clean, testable code."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/java-programming",
-                programImg: IT,
+                projectPath: "/professional-certificate/java-programming",
+                programImg: java,
                 programLabel: "Java Programming",
-                programText: "Master the core concepts of java programming with real-world projects and expert-led instruction.",
+                programText: "Master Java’s object-oriented principles and build powerful applications across desktop, web, and mobile platforms.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "501",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Java Programming",
-                note: "This course offers a comprehensive dive into java programming, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course offers an in-depth journey into Java programming, from variables and control structures to advanced topics like multithreading and file I/O. You’ll work on mini-projects that mimic enterprise-level development and learn how to debug, refactor, and optimize Java code. Whether you're building software, Android apps, or backend services, this course sets a strong foundation for long-term success."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/payroll-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/payroll-management",
+                programImg: payroll,
                 programLabel: "Payroll Management",
-                programText: "Master the core concepts of payroll management with real-world projects and expert-led instruction.",
+                programText: "Streamline payroll operations and ensure compliance with tax and labor regulations effectively.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1935",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Payroll Management",
-                note: "This course offers a comprehensive dive into payroll management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Gain the knowledge and tools to manage payroll systems with accuracy and legal compliance. This course covers salary structure, statutory deductions, employee benefits, tax filing, and payroll software operations. It’s designed to help HR professionals and finance personnel reduce errors, improve reporting, and ensure employees are paid accurately and on time."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/customer-relationship-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/customer-relationship-management",
+                programImg: crm,
                 programLabel: "Customer Relationship Management",
-                programText: "Master the core concepts of customer relationship management with real-world projects and expert-led instruction.",
+                programText: "Develop strategies to build long-term customer relationships and drive loyalty with CRM systems.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1729",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Customer Relationship Management",
-                note: "This course offers a comprehensive dive into customer relationship management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course explores the fundamentals of CRM and how to implement systems that improve customer engagement and retention. You’ll learn about CRM tools, customer segmentation, personalized outreach, and sales funnel optimization. Perfect for marketers, sales reps, and business owners looking to cultivate strong client relationships that drive recurring revenue."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/banking-and-finance",
-                programImg: IT,
+                projectPath: "/professional-certificate/banking-and-finance",
+                programImg: bf,
                 programLabel: "Banking and Finance",
-                programText: "Master the core concepts of banking and finance with real-world projects and expert-led instruction.",
+                programText: "Explore core principles of banking systems, financial instruments, and global economic operations.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1234",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Banking and Finance",
-                note: "This course offers a comprehensive dive into banking and finance, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Learn how financial institutions operate, how monetary policy impacts markets, and how investment instruments are used in personal and corporate finance. This course covers commercial banking, lending practices, capital markets, risk management, and financial planning. Ideal for finance professionals, analysts, and anyone entering the banking sector."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/compensation-and-benefits",
-                programImg: IT,
+                projectPath: "/professional-certificate/compensation-and-benefits",
+                programImg: cb,
                 programLabel: "Compensation and Benefits",
-                programText: "Master the core concepts of compensation and benefits with real-world projects and expert-led instruction.",
+                programText: "Design and manage fair, competitive, and motivating compensation structures for today’s workforce.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1641",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Compensation and Benefits",
-                note: "This course offers a comprehensive dive into compensation and benefits, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course provides HR professionals with the knowledge to build sustainable salary structures, incentive programs, and employee benefits plans. Topics include internal equity, external competitiveness, job evaluation, and pay-for-performance models. You'll also learn how to navigate laws and compliance issues while keeping employee satisfaction and company goals in balance."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/performance-appraisal",
-                programImg: IT,
+                projectPath: "/professional-certificate/performance-appraisal",
+                programImg: pa,
                 programLabel: "Performance Appraisal",
-                programText: "Master the core concepts of performance appraisal with real-world projects and expert-led instruction.",
+                programText: "Evaluate employee performance effectively with structured feedback systems and goal tracking.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "920",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Performance Appraisal",
-                note: "This course offers a comprehensive dive into performance appraisal, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course teaches managers and HR specialists how to design and implement performance appraisal systems that drive accountability and growth. You'll explore KPI setting, 360-degree feedback, performance reviews, and strategies for coaching underperformers. By the end, you’ll be able to turn evaluations into actionable development plans."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/talent-acquisition",
-                programImg: IT,
+                projectPath: "/professional-certificate/talent-acquisition",
+                programImg: ta,
                 programLabel: "Talent Acquisition",
-                programText: "Master the core concepts of talent acquisition with real-world projects and expert-led instruction.",
+                programText: "Recruit, assess, and onboard top talent using effective sourcing and selection strategies.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "720",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Talent Acquisition",
-                note: "This course offers a comprehensive dive into talent acquisition, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course covers every stage of modern recruitment—from writing compelling job descriptions and sourcing candidates to interviewing and onboarding. You'll explore tools like ATS systems, recruitment marketing, behavioral assessments, and metrics for measuring hiring effectiveness. It's perfect for HR professionals and hiring managers who want to attract and retain high-caliber talent."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/hr-analytics",
-                programImg: IT,
+                projectPath: "/professional-certificate/hr-analytics",
+                programImg: hr,
                 programLabel: "HR Analytics",
-                programText: "Master the core concepts of hr analytics with real-world projects and expert-led instruction.",
+                programText: "Leverage data and analytics to drive strategic HR decisions and optimize workforce performance.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1484",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in HR Analytics",
-                note: "This course offers a comprehensive dive into hr analytics, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course empowers HR professionals to make data-driven decisions by teaching how to collect, interpret, and apply workforce metrics. You’ll learn predictive analytics, attrition modeling, employee engagement analysis, and performance trend tracking. With hands-on projects using real HR data, this course enhances your ability to influence organizational growth through measurable people insights."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/public-health",
-                programImg: IT,
+                projectPath: "/professional-certificate/public-health",
+                programImg: ph,
                 programLabel: "Public Health",
-                programText: "Master the core concepts of public health with real-world projects and expert-led instruction.",
+                programText: "Understand the principles and challenges of promoting health and preventing disease in communities.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "832",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Public Health",
-                note: "This course offers a comprehensive dive into public health, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course introduces key topics in global and local public health, including disease prevention, health education, epidemiology, and policy-making. You'll explore real-world health case studies, learn to assess population needs, and design impactful interventions. Whether you're pursuing a career in healthcare or nonprofit work, this program prepares you to make a difference at the community level."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/content-writing",
-                programImg: IT,
+                projectPath: "/professional-certificate/content-writing",
+                programImg: content,
                 programLabel: "Content Writing",
-                programText: "Master the core concepts of content writing with real-world projects and expert-led instruction.",
+                programText: "Craft compelling and purposeful content for blogs, websites, social media, and marketing campaigns.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1338",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Content Writing",
-                note: "This course offers a comprehensive dive into content writing, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course equips aspiring writers with the skills to plan, structure, and write effective digital content. From storytelling to SEO best practices, you'll learn how to adapt tone for different platforms and engage your target audience. You'll also complete writing challenges and receive feedback to sharpen your technique, making you job-ready for freelance or corporate writing roles."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/pinterest-marketing",
-                programImg: IT,
+                projectPath: "/professional-certificate/pinterest-marketing",
+                programImg: pinterest,
                 programLabel: "Pinterest Marketing",
-                programText: "Master the core concepts of pinterest marketing with real-world projects and expert-led instruction.",
+                programText: "Tap into Pinterest's visual power to build brand awareness and drive targeted traffic to your business.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "887",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Pinterest Marketing",
-                note: "This course offers a comprehensive dive into pinterest marketing, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Learn how to create optimized Pins, boards, and strategies that turn Pinterest into a high-converting traffic engine. This course covers keyword research, audience targeting, content calendars, and using analytics to grow your reach. Whether you're promoting products or blog content, you'll leave equipped to create a Pinterest presence that delivers real results."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/audit-and-internal-control-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/audit-and-internal-control-management",
+                programImg: aicm,
                 programLabel: "Audit and Internal Control Management",
-                programText: "Master the core concepts of audit and internal control management with real-world projects and expert-led instruction.",
+                programText: "Master auditing techniques and internal control frameworks to strengthen organizational integrity.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "255",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Audit and Internal Control Management",
-                note: "This course offers a comprehensive dive into audit and internal control management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course provides an in-depth look at auditing procedures, risk management, compliance, and control systems. You’ll learn to design audit programs, detect irregularities, and evaluate internal policies for efficiency and transparency. Ideal for accounting professionals and compliance officers, this course builds critical skills for maintaining accountability and preventing fraud."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/fintech-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/fintech-management",
+                programImg: Fintech,
                 programLabel: "Fintech Management",
-                programText: "Master the core concepts of fintech management with real-world projects and expert-led instruction.",
+                programText: "Navigate the evolving world of digital finance, blockchain, and financial innovation with confidence.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "407",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Fintech Management",
-                note: "This course offers a comprehensive dive into fintech management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Dive into the fast-growing fintech sector and learn how emerging technologies are reshaping payments, lending, investment, and banking. You’ll explore blockchain, digital wallets, robo-advisors, and regulatory technology, with case studies from top fintech firms. This course equips you to lead or collaborate in tech-driven finance environments where innovation meets regulation."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/communications-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/communications-management",
+                programImg: ccm,
                 programLabel: "Communications Management",
-                programText: "Master the core concepts of communications management with real-world projects and expert-led instruction.",
+                programText: "Build and deliver effective internal and external communications in professional environments.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "724",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Communications Management",
-                note: "This course offers a comprehensive dive into communications management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course covers the principles of corporate communication, stakeholder engagement, and strategic messaging. You’ll learn how to manage PR crises, lead communications in project teams, write clear business documents, and use digital platforms for outreach. It's ideal for professionals aiming to influence, inform, and connect through purposeful communication."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/operations-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/operations-management",
+                programImg: om,
                 programLabel: "Operations Management",
-                programText: "Master the core concepts of operations management with real-world projects and expert-led instruction.",
+                programText: "Streamline business operations by improving processes, productivity, and resource utilization.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "287",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Operations Management",
-                note: "This course offers a comprehensive dive into operations management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course teaches the fundamentals of operations—from process analysis and workflow optimization to inventory control and supply chain alignment. You’ll apply techniques like Lean, Six Sigma, and continuous improvement to real-world business scenarios. It’s suited for professionals looking to boost efficiency, reduce waste, and enhance overall operational performance."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/business-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/business-management",
+                programImg: businessManagement,
                 programLabel: "Business Management",
-                programText: "Master the core concepts of business management with real-world projects and expert-led instruction.",
+                programText: "Lead teams, manage resources, and make strategic decisions to drive business success.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "277",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Business Management",
-                note: "This course offers a comprehensive dive into business management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course provides a broad foundation in management principles including leadership, finance, operations, and organizational behavior. You’ll explore how to set goals, manage conflict, assess performance, and adapt to change in dynamic environments. Perfect for aspiring managers or entrepreneurs seeking a solid grasp of business fundamentals."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/property-and-asset-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/property-and-asset-management",
+                programImg: pam,
                 programLabel: "Property and Asset Management",
-                programText: "Master the core concepts of property and asset management with real-world projects and expert-led instruction.",
+                programText: "Manage real estate portfolios and physical assets for long-term growth and operational efficiency.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1907",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Property and Asset Management",
-                note: "This course offers a comprehensive dive into property and asset management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course dives into property lifecycle management, including acquisition, maintenance, valuation, leasing, and divestment. You'll learn to develop asset strategies, evaluate property risks, and oversee tenant relations. With insights from both real estate and facilities management, this course prepares professionals to enhance value while minimizing operational costs."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/monitoring-and-evaluation",
-                programImg: IT,
+                projectPath: "/professional-certificate/monitoring-and-evaluation",
+                programImg: me,
                 programLabel: "Monitoring and Evaluation",
-                programText: "Master the core concepts of monitoring and evaluation with real-world projects and expert-led instruction.",
+                programText: "Develop strong analytical skills to track project progress, assess impact, and optimize performance.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1990",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Monitoring and Evaluation",
-                note: "This course offers a comprehensive dive into monitoring and evaluation, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course offers practical insights into designing monitoring systems and evaluation frameworks that help organizations make informed, evidence-based decisions. You'll gain expertise in data collection tools, performance indicators, and result-based reporting, preparing you for roles in NGOs, government, or corporate project oversight."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/digital-marketing",
-                programImg: IT,
+                projectPath: "/professional-certificate/digital-marketing",
+                programImg: dm,
                 programLabel: "Digital Marketing",
-                programText: "Master the core concepts of digital marketing with real-world projects and expert-led instruction.",
+                programText: "Create and manage effective digital campaigns using SEO, social media, PPC, and content strategy.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1850",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Digital Marketing",
-                note: "This course offers a comprehensive dive into digital marketing, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course equips you with a full digital marketing toolkit—SEO, Google Ads, content marketing, and more—tailored for real-world business goals. Learn how to build customer funnels, boost conversions, and analyze performance using modern tools and data. Ideal for business owners, marketers, and freelancers."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/copywriting",
-                programImg: IT,
+                projectPath: "/professional-certificate/copywriting",
+                programImg: Copywriting,
                 programLabel: "Copywriting",
-                programText: "Master the core concepts of copywriting with real-world projects and expert-led instruction.",
+                programText: "Write persuasive, engaging copy that converts audiences into loyal customers.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "494",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Copywriting",
-                note: "This course offers a comprehensive dive into copywriting, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Master the psychology of words and how to craft attention-grabbing headlines, email campaigns, landing pages, and ads. You'll explore storytelling, emotional triggers, and brand voice development while building a portfolio of compelling work. Perfect for marketers, entrepreneurs, and content creators."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/procurement",
-                programImg: IT,
+                projectPath: "/professional-certificate/procurement",
+                programImg: Procurement,
                 programLabel: "Procurement",
-                programText: "Master the core concepts of procurement with real-world projects and expert-led instruction.",
+                programText: "Gain the expertise to source suppliers, negotiate contracts, and manage purchasing processes efficiently.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "263",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Procurement",
-                note: "This course offers a comprehensive dive into procurement, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course dives into supplier selection, cost management, contract law, and purchasing ethics. Learn how to optimize procurement cycles, implement e-procurement tools, and align sourcing with business goals. Ideal for supply chain professionals and aspiring procurement managers."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/office-administration",
-                programImg: IT,
+                projectPath: "/professional-certificate/office-administration",
+                programImg: oa,
                 programLabel: "Office Administration",
-                programText: "Master the core concepts of office administration with real-world projects and expert-led instruction.",
+                programText: "Run efficient office operations and support organizational success with administrative expertise.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "358",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Office Administration",
-                note: "This course offers a comprehensive dive into office administration, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course equips learners with skills in office organization, records management, scheduling, and basic HR and finance tasks. You’ll master digital tools, communication techniques, and workflow optimization, making you a key support pillar in any workplace setting."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/asset-professional-management",
-                programImg: IT,
-                programLabel: "Asset Professional Management",
-                programText: "Master the core concepts of asset professional management with real-world projects and expert-led instruction.",
-                programPrice: "3",
-                programName: "PROFESSIONAL COURSES",
-                reviews: "1476",
-                duration: "14 days",
-                mode: "Online & Self-Paced",
-                certificate: "Professional Certificate in Asset Professional Management",
-                note: "This course offers a comprehensive dive into asset professional management, equipping learners with the practical and strategic skills needed to excel in this field."
-            },
-            {
-                addToCart: false,
-                projectPath: "/professional-courses/hospitality-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/hospitality-management",
+                programImg: Hospitality,
                 programLabel: "Hospitality Management",
-                programText: "Master the core concepts of hospitality management with real-world projects and expert-led instruction.",
+                programText: "Master service excellence, guest relations, and operational leadership in the hospitality industry.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "764",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Hospitality Management",
-                note: "This course offers a comprehensive dive into hospitality management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "From front desk operations to event planning, this course teaches the foundations of hotel, resort, and restaurant management. Learn about customer service, quality assurance, budgeting, and staff coordination to build a thriving hospitality environment."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/hse-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/hse-management",
+                programImg: HSE,
                 programLabel: "HSE Management",
-                programText: "Master the core concepts of hse management with real-world projects and expert-led instruction.",
+                programText: "Promote workplace safety and environmental compliance through strategic HSE leadership.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "249",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in HSE Management",
-                note: "This course offers a comprehensive dive into hse management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course covers risk assessment, occupational health regulations, safety planning, and environmental controls. You’ll gain practical tools for accident prevention, incident response, and audits—essential for HSE officers, facility managers, and engineers in high-risk industries."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/financial-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/financial-management",
+                programImg: fm,
                 programLabel: "Financial Management",
-                programText: "Master the core concepts of financial management with real-world projects and expert-led instruction.",
+                programText: "Analyze financial data, plan budgets, and guide businesses toward smart fiscal decisions.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "938",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Financial Management",
-                note: "This course offers a comprehensive dive into financial management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "You’ll learn how to interpret financial statements, manage cash flows, evaluate investments, and create strategic budgets. This course helps business leaders and finance professionals control risk, drive profitability, and align spending with long-term goals."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/warehouse-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/warehouse-management",
+                programImg: Warehouse,
                 programLabel: "Warehouse Management",
-                programText: "Master the core concepts of warehouse management with real-world projects and expert-led instruction.",
+                programText: "Streamline inventory, optimize space, and coordinate warehouse operations for peak efficiency.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "101",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Warehouse Management",
-                note: "This course offers a comprehensive dive into warehouse management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Gain hands-on knowledge of receiving, storage systems, picking, packing, and order fulfillment. Learn best practices in layout planning, stock control, and warehouse software to minimize errors and maximize productivity in modern logistics."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/logistics-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/logistics-management",
+                programImg: Logistics,
                 programLabel: "Logistics Management",
-                programText: "Master the core concepts of logistics management with real-world projects and expert-led instruction.",
+                programText: "Coordinate supply chain activities, transportation, and delivery systems with precision.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "143",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Logistics Management",
-                note: "This course offers a comprehensive dive into logistics management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course explores shipping methods, third-party logistics, tracking systems, and demand forecasting. You’ll develop operational strategies that reduce delays and improve delivery reliability—essential for logistics coordinators and managers."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/materials-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/materials-management",
+                programImg: Materials,
                 programLabel: "Materials Management",
-                programText: "Master the core concepts of materials management with real-world projects and expert-led instruction.",
+                programText: "Develop a strong command of materials flow, procurement, and resource allocation to streamline business operations.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1427",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Materials Management",
-                note: "This course offers a comprehensive dive into materials management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course trains professionals to manage materials and supplies effectively within any organization. It covers key areas such as stock level control, procurement planning, logistics coordination, and waste reduction — all aimed at improving operational efficiency and reducing overhead costs."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/inventory-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/inventory-management",
+                programImg: Inventory,
                 programLabel: "Inventory Management",
-                programText: "Master the core concepts of inventory management with real-world projects and expert-led instruction.",
+                programText: "Gain hands-on skills to track, optimize, and manage inventory systems across diverse industries.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1492",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Inventory Management",
-                note: "This course offers a comprehensive dive into inventory management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course explores inventory strategies such as FIFO/LIFO methods, automated systems, auditing techniques, and demand forecasting. Learners will understand how to avoid stockouts, minimize excess inventory, and build systems that align with real-time supply chain goals."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/wordpress-operations-pro",
-                programImg: IT,
-                programLabel: "WordPress Operations Pro\u2122",
-                programText: "Master the core concepts of wordpress operations pro\u2122 with real-world projects and expert-led instruction.",
+                projectPath: "/professional-certificate/wordpress-operations-pro",
+                programImg: wordpress,
+                programLabel: "WordPress Operations Pro",
+                programText: "Build powerful, responsive websites using WordPress with a focus on backend operations, content workflows, and plugin architecture.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "125",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
-                certificate: "Professional Certificate in WordPress Operations Pro\u2122",
-                note: "This course offers a comprehensive dive into wordpress operations pro\u2122, equipping learners with the practical and strategic skills needed to excel in this field."
+                certificate: "Professional Certificate in WordPress Operations Pro",
+                note: "This course is tailored to help learners master both the visible and behind-the-scenes operations of WordPress. From installing and configuring plugins to automating publishing processes and optimizing for performance, participants will gain practical skills that empower them to create and manage high-functioning websites for business or freelance purposes."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/product-analytics",
-                programImg: IT,
+                projectPath: "/professional-certificate/product-analytics",
+                programImg: productAnalysis,
                 programLabel: "Product Analytics",
-                programText: "Master the core concepts of product analytics with real-world projects and expert-led instruction.",
+                programText: "Unlock the power of product data by learning analytics techniques that drive smarter product decisions and user growth.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "185",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Product Analytics",
-                note: "This course offers a comprehensive dive into product analytics, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "Dive into a curriculum designed to teach you how to measure product performance using key metrics, interpret behavioral trends, and generate insights that influence product roadmaps. This course empowers learners to make data-backed decisions, identify churn points, and optimize the user experience in real-world business contexts."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/instagram-marketing-and-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/instagram-marketing-and-management",
+                programImg: instagram,
                 programLabel: "Instagram Marketing & Management",
-                programText: "Master the core concepts of instagram marketing & management with real-world projects and expert-led instruction.",
+                programText: "Master the art of growing and managing Instagram accounts for brands, influencers, and campaigns with strategic insight.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "934",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Instagram Marketing & Management",
-                note: "This course offers a comprehensive dive into instagram marketing & management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course walks you through Instagram content strategy, analytics, ad management, and influencer collaborations. Learners will explore real case studies, learn algorithm hacks, and practice storytelling methods that convert followers into loyal customers — all within the Instagram ecosystem."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/facebook-ads-and-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/facebook-ads-and-management",
+                programImg: facebook,
                 programLabel: "Facebook Ads and Management",
-                programText: "Master the core concepts of facebook ads and management with real-world projects and expert-led instruction.",
+                programText: "Become proficient in Facebook advertising and page management to run data-driven campaigns that maximize ROI.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1395",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Facebook Ads and Management",
-                note: "This course offers a comprehensive dive into facebook ads and management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This hands-on course covers the full spectrum of Facebook Ads—from creating ad creatives and setting up pixel tracking to targeting audiences and analyzing ad reports. Learners will gain the tools and templates to manage ad accounts, scale campaigns efficiently, and drive measurable growth for businesses or clients."
             },
             {
                 addToCart: false,
-                projectPath: "/professional-courses/twitter-operations-and-management",
-                programImg: IT,
+                projectPath: "/professional-certificate/twitter-operations-and-management",
+                programImg: twitter,
                 programLabel: "Twitter Operations and Management",
-                programText: "Master the core concepts of twitter operations and management with real-world projects and expert-led instruction.",
+                programText: "Learn to manage Twitter accounts with an edge—through content planning, trends leverage, and engagement analytics.",
                 programPrice: "3",
                 programName: "PROFESSIONAL COURSES",
                 reviews: "1578",
                 duration: "14 days",
                 mode: "Online & Self-Paced",
                 certificate: "Professional Certificate in Twitter Operations and Management",
-                note: "This course offers a comprehensive dive into twitter operations and management, equipping learners with the practical and strategic skills needed to excel in this field."
+                note: "This course equips learners with the tactical know-how to run high-performing Twitter profiles. From creating viral threads and Twitter Spaces to handling brand crisis communication, you’ll master how to grow an audience and maintain a professional, responsive Twitter presence tailored for success in digital communications."
             }
         ]
     },
@@ -1723,435 +1753,435 @@ const ProgramDetails = [
                 addToCart: false,
                 projectPath: "/executive-diploma/fullstack-development",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: FS,
                 programLabel: "Fullstack Development",
-                programText: "Develop in-demand skills in fullstack development, with a hands-on curriculum tailored for professional success.",
+                programText: "Become a versatile fullstack developer by learning both frontend and backend technologies in an immersive, hands-on environment.",
                 programPrice: "5.6",
                 reviews: "1494",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in fullstack-development",
-                note: "This diploma offers focused training in fullstack development, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course is designed to turn you into a confident fullstack developer, capable of building complete web applications from scratch. You'll dive into both client-side and server-side programming, learn popular frameworks, and complete guided projects that reflect real-world challenges. Whether you're pivoting into tech or upskilling, this path ensures you're industry-ready with a well-rounded developer skill set."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/frontend-development",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: frontend,
                 programLabel: "Frontend Development",
-                programText: "Explore frontend development with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Build visually stunning, user-centric web interfaces by mastering the tools and techniques of modern frontend development.",
                 programPrice: "5.6",
                 reviews: "124",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in frontend-development",
-                note: "This Executive Diploma in frontend development is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This intensive program focuses on frontend development essentials including HTML, CSS, JavaScript, and cutting-edge frameworks like React. Through structured lessons and portfolio projects, you’ll gain the skills to craft responsive and dynamic user experiences. By the end, you’ll not only understand how frontend systems work but also be able to collaborate effectively with designers and backend teams."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/ui-ux-design",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: UI,
                 programLabel: "UI-UX Design",
-                programText: "Explore ui-ux design with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Craft seamless and engaging digital experiences with a deep dive into user interface and user experience design principles.",
                 programPrice: "5.6",
                 reviews: "623",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in ui-ux-design",
-                note: "This Executive Diploma in ui-ux design is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course offers a practical and strategic approach to UI/UX design, blending design theory with real-life application. You'll explore usability, interaction design, wireframing, prototyping, and user research. By working on live design problems, you'll develop a designer’s mindset and the skills to create digital products that are both functional and aesthetically compelling. Perfect for aspiring designers or product creators looking to enhance usability and engagement."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/graphic-design",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: graphics,
                 programLabel: "Graphic Design",
-                programText: "Explore graphic design with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Unleash your creativity and technical skills to produce visually compelling graphics across digital and print platforms.",
                 programPrice: "5.6",
                 reviews: "1752",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in graphic-design",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in graphic design to boost your professional profile."
+                note: "Dive into the dynamic world of graphic design where creativity meets communication. This course teaches design fundamentals, branding, layout techniques, color theory, and industry-standard tools like Adobe Photoshop and Illustrator. Whether you're designing social media assets, marketing materials, or logos, you’ll walk away with a strong portfolio and the ability to turn ideas into striking visuals that captivate and inform."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/business--data-analyst",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: DA,
                 programLabel: "Business - Data Analyst",
-                programText: "Develop in-demand skills in business - data analyst, with a hands-on curriculum tailored for professional success.",
+                programText: "Discover the analytical mindset and tools needed to turn raw business data into powerful strategic insights.",
                 programPrice: "5.6",
                 reviews: "1356",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in business---data-analyst",
-                note: "Sharpen your expertise in business - data analyst and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This business-data analyst course combines technical instruction with real-world application to help you uncover trends and make data-driven decisions. You’ll learn how to collect, clean, and analyze data using tools like Excel, SQL, and Tableau. By working with datasets from multiple industries, you’ll develop the ability to communicate insights effectively and help organizations optimize their operations and growth strategies."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/iot-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: IOT,
                 programLabel: "IoT Pro Course",
-                programText: "Explore iot pro course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Step into the future of connectivity and automation with comprehensive training in Internet of Things (IoT) systems and applications.",
                 programPrice: "5.6",
                 reviews: "1287",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in iot-pro-course",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in iot pro course to boost your professional profile."
+                note: "In this course, you'll explore the architecture, protocols, and hardware behind IoT systems. From smart homes to industrial sensors, you'll learn how IoT is transforming industries. Through hands-on labs and project development, you’ll gain the skills to build and manage IoT solutions that collect, transmit, and analyze data at scale. Ideal for tech professionals looking to specialize in this rapidly expanding field."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/blockchain-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: blockchain,
                 programLabel: "Blockchain Pro Course",
-                programText: "Develop in-demand skills in blockchain pro course, with a hands-on curriculum tailored for professional success.",
+                programText: "Understand the revolutionary concepts behind blockchain technology and explore its applications beyond cryptocurrency.",
                 programPrice: "5.6",
                 reviews: "295",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in blockchain-pro-course",
-                note: "Gain the tools and confidence to tackle modern challenges in blockchain pro course through this comprehensive, career-focused diploma course."
+                note: "This in-depth course demystifies blockchain by guiding you through its core principles, such as decentralization, cryptography, consensus models, and smart contracts. With real-world case studies and practice exercises, you'll build blockchain-based solutions and understand their use across industries like finance, logistics, and identity management. This is your gateway to one of the most disruptive innovations of our time."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/sql-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: SQL,
                 programLabel: "SQL Pro Course",
-                programText: "Explore sql pro course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Master SQL from beginner to advanced and gain the skills to manipulate, query, and analyze data effectively.",
                 programPrice: "5.6",
                 reviews: "649",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in sql-pro-course",
-                note: "This Executive Diploma in sql pro course is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course walks you through structured query language (SQL) in detail—from basic CRUD operations to complex joins, subqueries, and performance tuning. Whether you're managing databases or building reports, this course equips you to handle real-world data analysis tasks with confidence. You’ll also gain exposure to relational database management systems like MySQL and PostgreSQL, making this an essential toolkit for any data-driven career."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/devops-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: devops,
                 programLabel: "DevOps Pro Course",
-                programText: "Explore devops pro course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Gain the expertise to streamline software development and IT operations through DevOps practices and automation tools.",
                 programPrice: "5.6",
                 reviews: "280",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in devops-pro-course",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in devops pro course to boost your professional profile."
+                note: "In this DevOps Pro Course, you'll dive into the philosophy and technical stack behind continuous integration, deployment pipelines, and infrastructure as code. From Docker and Kubernetes to Jenkins and GitHub Actions, you’ll learn how to build resilient systems that scale efficiently. This course is ideal for engineers looking to bridge development and operations for faster, more reliable product delivery."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/networking-programming-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: network,
                 programLabel: "Networking Programming Course",
-                programText: "Develop in-demand skills in networking programming course, with a hands-on curriculum tailored for professional success.",
+                programText: "Explore the foundations of computer networking and programming in one comprehensive, project-based learning experience.",
                 programPrice: "5.6",
                 reviews: "409",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in networking-programming-course",
-                note: "Sharpen your expertise in networking programming course and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "Designed for those seeking to understand how systems communicate, this course covers the essentials of TCP/IP, routing, switching, and network security alongside Python-based scripting. You’ll apply your knowledge to build and troubleshoot networks, write automation scripts, and simulate data communication in real-world scenarios. Whether entering IT or cybersecurity, these are foundational skills you’ll rely on."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/cyber-security-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: cyber,
                 programLabel: "Cyber Security Pro Course",
-                programText: "Develop in-demand skills in cyber security pro course, with a hands-on curriculum tailored for professional success.",
+                programText: "Defend digital assets and systems by mastering the essentials of cybersecurity operations and ethical hacking.",
                 programPrice: "5.6",
                 reviews: "851",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in cyber-security-pro-course",
-                note: "Sharpen your expertise in cyber security pro course and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course provides a robust introduction to the core principles of cybersecurity, including threat identification, penetration testing, cryptography, and risk mitigation. With labs and simulated attacks, you’ll learn how to protect networks, secure information, and stay ahead of cyber threats. Ideal for aspiring security analysts or anyone working in tech who wants to strengthen their defense skills."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/microsoft-excel-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: excel,
                 programLabel: "Microsoft Excel Pro Course",
-                programText: "Develop in-demand skills in microsoft excel pro course, with a hands-on curriculum tailored for professional success.",
+                programText: "Take control of data and boost your productivity by mastering the full capabilities of Microsoft Excel.",
                 programPrice: "5.6",
                 reviews: "410",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in microsoft-excel-pro-course",
-                note: "Gain the tools and confidence to tackle modern challenges in microsoft excel pro course through this comprehensive, career-focused diploma course."
+                note: "Whether you’re working in finance, admin, analytics, or project management, Excel is a must-have tool. This course dives deep into formulas, pivot tables, data visualization, automation with macros, and real-life use cases. You’ll gain the ability to turn spreadsheets into decision-making tools and significantly enhance your productivity with practical business insights at your fingertips."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/power-bi-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: powerBI,
                 programLabel: "Power Bi  Pro Course",
-                programText: "Explore power bi  pro course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Transform data into actionable insights through advanced Power BI dashboards and real-time reporting solutions.",
                 programPrice: "5.6",
                 reviews: "1264",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in power-bi--pro-course",
-                note: "Gain the tools and confidence to tackle modern challenges in power bi  pro course through this comprehensive, career-focused diploma course."
+                note: "This course equips you to build interactive dashboards, clean and model data, and leverage DAX to create meaningful KPIs and reports. From importing datasets to publishing insights for stakeholders, you’ll learn the end-to-end process of delivering business intelligence with Power BI. Perfect for professionals who need to tell data stories and support strategic decisions through powerful visualizations."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/dart-programming-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: dart,
                 programLabel: "Dart Programming Course",
-                programText: "Develop in-demand skills in dart programming course, with a hands-on curriculum tailored for professional success.",
+                programText: "Get started with modern app development by mastering Dart programming and its ecosystem, including Flutter integration.",
                 programPrice: "5.6",
                 reviews: "441",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in dart-programming-course",
-                note: "Sharpen your expertise in dart programming course and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "Learn to code in Dart—a fast-growing, object-oriented language used primarily for building mobile apps with Flutter. This course covers syntax, functions, OOP principles, and error handling through real-world app scenarios. Ideal for beginners and experienced coders looking to expand their toolkit for mobile-first development, this course sets the foundation for cross-platform success."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/programming-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: pro,
                 programLabel: "Programming Course",
-                programText: "Explore programming course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Build a solid foundation in programming by exploring essential concepts and coding practices across multiple languages.",
                 programPrice: "5.6",
                 reviews: "1685",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in programming-course",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in programming course to boost your professional profile."
+                note: "This foundational course introduces students to core programming constructs such as loops, conditions, variables, functions, and data structures. Through hands-on exercises and mini-projects in languages like Python and JavaScript, you’ll develop the problem-solving mindset needed to succeed in any tech role. A perfect launchpad for beginners aiming to enter the world of software development."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/html-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: html,
                 programLabel: "HTML Pro Course",
-                programText: "Explore html pro course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Unlock the full potential of HTML and learn how to build modern, responsive, and well-structured web pages from scratch.",
                 programPrice: "5.6",
                 reviews: "783",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in html-pro-course",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in html pro course to boost your professional profile."
+                note: "This course provides an in-depth exploration of HTML, the foundational language of the web. Through hands-on projects and interactive lessons, you'll learn not only the syntax but also how to structure semantic content, manage forms, embed media, and ensure accessibility. Whether you're new to coding or brushing up on web development basics, this course will strengthen your ability to create fast, clean, and professional-grade websites."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/python-pro-course",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: python,
                 programLabel: "Python Pro Course",
-                programText: "Explore python pro course with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Explore Python's versatility and harness its power to solve real-world challenges in automation, data, and software development.",
                 programPrice: "5.6",
                 reviews: "1988",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in python-pro-course",
-                note: "This Executive Diploma in python pro course is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This comprehensive course introduces Python programming in a way that’s approachable yet deeply practical. You'll gain a solid foundation in syntax and data structures while also diving into real-world applications such as automation, file handling, web scraping, and basic data analytics. With guided projects and hands-on exercises, learners develop the confidence and ability to write Python code that solves real business and technical problems effectively."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/react-native",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: reactNative,
                 programLabel: "React Native",
-                programText: "Explore react native with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Build cross-platform mobile apps with ease using React Native and bring your ideas to both Android and iOS users.",
                 programPrice: "5.6",
                 reviews: "303",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in react-native",
-                note: "Gain the tools and confidence to tackle modern challenges in react native through this comprehensive, career-focused diploma course."
+                note: "Dive into the world of mobile app development with this powerful React Native course. It’s designed to help you understand core principles such as component-based architecture, state management, and device-native features like geolocation and camera access. With practical examples and real mobile application builds, you’ll gain the skills to build high-performance apps with elegant UIs and seamless user experiences for a wide audience."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/web-development",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: webDev,
                 programLabel: "Web Development",
-                programText: "Explore web development with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Learn to develop modern, full-featured websites using industry-standard tools and practices in front-end and back-end development.",
                 programPrice: "5.6",
                 reviews: "436",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in web-development",
-                note: "Gain the tools and confidence to tackle modern challenges in web development through this comprehensive, career-focused diploma course."
+                note: "This course walks you through the essentials of building websites and web applications from the ground up. You’ll start with HTML, CSS, and JavaScript for the front end, and advance into back-end technologies like Node.js or databases. By combining theory with hands-on projects, learners leave with a portfolio-ready skill set and a solid grasp of modern development workflows, version control, and responsive design techniques that power today’s websites."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/cloud-computing",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: cloud,
                 programLabel: "Cloud Computing",
-                programText: "Explore cloud computing with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Master cloud infrastructure and services, and discover how to deploy, scale, and manage applications in a distributed environment.",
                 programPrice: "5.6",
                 reviews: "1108",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in cloud-computing",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in cloud computing to boost your professional profile."
+                note: "Explore the evolving world of cloud technology in this foundational course tailored for professionals looking to adapt to the future of computing. You’ll gain hands-on experience with cloud service models (IaaS, PaaS, SaaS), understand deployment frameworks, and explore cloud security, virtualization, and storage. This course empowers you with the know-how to migrate and manage systems in cloud platforms like AWS, Azure, or Google Cloud with confidence."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/artificial-intelligence",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: AI,
                 programLabel: "Artificial Intelligence",
-                programText: "Develop in-demand skills in artificial intelligence, with a hands-on curriculum tailored for professional success.",
+                programText: "Step into the realm of artificial intelligence and learn how to build systems that think, learn, and adapt.",
                 programPrice: "5.6",
                 reviews: "833",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in artificial-intelligence",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in artificial intelligence to boost your professional profile."
+                note: "In this course, learners are introduced to the fascinating world of AI—from machine learning algorithms to intelligent decision-making systems. You’ll explore supervised and unsupervised learning, neural networks, and real-life use cases such as recommendation engines and chatbots. This is more than just theory; each module comes with practical implementations using tools like Python and TensorFlow, preparing you for future roles in automation and intelligent system design."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/big-data",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: bigData,
                 programLabel: "Big Data",
-                programText: "Explore big data with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Dive into the complexities of big data and learn how to collect, analyze, and visualize massive datasets effectively.",
                 programPrice: "5.6",
                 reviews: "269",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in big-data",
-                note: "Sharpen your expertise in big data and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "Designed for the data-driven professional, this course explores the tools and technologies needed to handle large-scale data. You’ll learn the principles of distributed systems like Hadoop and Spark, explore data ingestion pipelines, and gain exposure to structured and unstructured data handling. By the end of this course, you’ll be able to derive actionable insights from big data sets and support data-driven decision-making in any organization."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/data-science",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: dataScience,
                 programLabel: "Data Science",
-                programText: "Explore data science with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Transform data into insights and drive intelligent decision-making through the power of data science.",
                 programPrice: "5.6",
                 reviews: "343",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in data-science",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in data science to boost your professional profile."
+                note: "This immersive course walks you through the entire data science pipeline, from data collection and cleaning to analysis and predictive modeling. Using Python and essential libraries like Pandas, NumPy, and Scikit-learn, you’ll build your understanding of statistical analysis, machine learning, and data visualization. Whether you’re entering the field or upskilling, this course gives you the edge to work with real data and build intelligent solutions that matter."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/social-media-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: SMM,
                 programLabel: "Social Media Management",
-                programText: "Develop in-demand skills in social media management, with a hands-on curriculum tailored for professional success.",
+                programText: "Develop the skills to strategize, manage, and grow powerful social media campaigns across major platforms.",
                 programPrice: "5.6",
                 reviews: "947",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in social-media-management",
-                note: "This Executive Diploma in social media management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course delivers an actionable framework for mastering the tools and strategies needed in the fast-paced world of social media. You'll learn how to craft compelling content, manage brand identity, schedule posts with efficiency, and track engagement using industry-standard analytics tools. From organic growth to paid advertising, this course equips you to plan and execute high-converting campaigns on platforms like Facebook, Instagram, Twitter, LinkedIn, and TikTok. Ideal for aspiring digital marketers, brand managers, and entrepreneurs looking to amplify their digital presence."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/human-resource-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: HumanResourceManagement,
                 programLabel: "Human Resource Management",
-                programText: "Develop in-demand skills in human resource management, with a hands-on curriculum tailored for professional success.",
+                programText: "Gain a thorough understanding of HR practices and learn how to lead, manage, and support a thriving workforce.",
                 programPrice: "5.6",
                 reviews: "122",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in human-resource-management",
-                note: "Gain the tools and confidence to tackle modern challenges in human resource management through this comprehensive, career-focused diploma course."
+                note: "This course is built for future HR leaders seeking to understand every facet of employee lifecycle management. You'll explore key HR functions such as recruitment, onboarding, performance evaluation, employee relations, compliance, and organizational culture. Through real-world scenarios and case studies, you’ll also gain insights into labor law, conflict resolution, compensation strategies, and leadership development. Whether you aim to join a corporate HR team or manage people within your business, this course provides essential tools for building and sustaining a productive workforce."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/project-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: projectManagement,
                 programLabel: "Project Management",
-                programText: "Explore project management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Learn how to initiate, plan, execute, and close successful projects on time and within budget.",
                 programPrice: "5.6",
                 reviews: "1650",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in project-management",
-                note: "This diploma offers focused training in project management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This comprehensive course offers a deep dive into the principles and methodologies of modern project management. You’ll explore tools like Gantt charts, risk assessments, and stakeholder management strategies, while mastering frameworks such as Agile, Scrum, and Waterfall. Through simulations and guided exercises, you'll practice breaking down project requirements, building timelines, allocating resources, and managing teams. This course prepares you to lead projects of any size with confidence and clarity, making it ideal for managers, team leads, and coordinators across industries."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/customer-service",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: CS,
                 programLabel: "Customer Service",
-                programText: "Explore customer service with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Master the art of exceptional customer service and deliver positive experiences that build lasting brand loyalty.",
                 programPrice: "5.6",
                 reviews: "139",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in customer-service",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in customer service to boost your professional profile."
+                note: "Designed for both front-line staff and team supervisors, this course focuses on delivering high-impact customer service in any business setting. You’ll learn the psychology of customer behavior, techniques for handling complaints, and methods to exceed expectations in both in-person and digital interactions. Using practical case studies, the course addresses tone, empathy, product knowledge, and crisis resolution strategies to turn frustrated clients into loyal advocates. Ideal for professionals who want to enhance their communication and customer handling skills."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/risk-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: risKManagement,
                 programLabel: "Risk Management",
-                programText: "Explore risk management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Identify, assess, and mitigate risks with strategic planning tools that safeguard business goals.",
                 programPrice: "5.6",
                 reviews: "1752",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in risk-management",
-                note: "This diploma offers focused training in risk management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course offers an analytical approach to recognizing, evaluating, and responding to a wide range of organizational risks. Whether it's financial, operational, compliance-based, or reputational, you’ll gain the skills needed to perform risk assessments and implement mitigation strategies. You'll also explore the use of risk matrices, audits, control systems, and compliance standards like ISO 31000. With real-life case studies and actionable frameworks, this course prepares professionals to make informed decisions that protect and sustain business value."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/marketing",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: marketing,
                 programLabel: "Marketing",
-                programText: "Explore marketing with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Learn how to attract, engage, and convert audiences using modern marketing principles and strategies.",
                 programPrice: "5.6",
                 reviews: "1166",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in marketing",
-                note: "This Executive Diploma in marketing is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "Dive into the full spectrum of marketing fundamentals, from understanding consumer behavior to executing cross-channel campaigns. This course covers both digital and traditional marketing techniques, including branding, copywriting, SEO, email marketing, influencer campaigns, and performance analytics. You’ll also explore segmentation, targeting, and positioning to design strategies that drive real business growth. Perfect for marketers, entrepreneurs, or anyone looking to master the art of persuasion and brand visibility in a competitive marketplace."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/accounting",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: accounting,
                 programLabel: "Accounting",
-                programText: "Explore accounting with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Build a solid foundation in accounting principles, financial reporting, and business budgeting essentials.",
                 programPrice: "5.6",
                 reviews: "1753",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in accounting",
-                note: "This Executive Diploma in accounting is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This beginner-friendly course demystifies accounting concepts and introduces learners to the language of business finance. You'll understand how to read financial statements, track revenue and expenses, and calculate key performance indicators. Topics include double-entry bookkeeping, ledgers, trial balances, and profit/loss analysis. Practical exercises reinforce your knowledge of budgeting and tax considerations. Whether you’re preparing for a role in finance or simply want to manage your personal or business accounts more effectively, this course delivers core competencies that matter."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/sales-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: salesManagement,
                 programLabel: "Sales Management",
-                programText: "Explore sales management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Discover how to lead high-performing sales teams and drive consistent revenue growth through strategy and motivation.",
                 programPrice: "5.6",
                 reviews: "1470",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in sales-management",
-                note: "Gain the tools and confidence to tackle modern challenges in sales management through this comprehensive, career-focused diploma course."
+                note: "This course teaches you how to build, motivate, and manage sales teams using proven methodologies. You’ll gain insight into pipeline forecasting, performance metrics, sales coaching, and negotiation strategies. You'll also explore CRM tools and digital sales platforms that streamline prospecting and follow-ups. Perfect for aspiring sales managers or entrepreneurs, this course helps you align sales objectives with business goals, manage team morale, and close deals effectively in fast-paced environments."
             },
             {
                 addToCart: false,
@@ -2159,587 +2189,573 @@ const ProgramDetails = [
                 programName: "EXECUTIVE DIPLOMA",
                 programImg: IT,
                 programLabel: "Information Technology",
-                programText: "Develop in-demand skills in information technology, with a hands-on curriculum tailored for professional success.",
+                programText: "Explore IT systems, networking, and security while building hands-on skills to support enterprise-level tech environments.",
                 programPrice: "5.6",
                 reviews: "774",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in information-technology",
-                note: "Sharpen your expertise in information technology and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course is a complete guide to understanding the foundations of modern IT infrastructure. It covers networking basics, system administration, database management, cloud integration, and cybersecurity protocols. You’ll also learn how to troubleshoot hardware/software issues, configure devices, and maintain secure IT environments. This practical course is designed for tech enthusiasts, office managers, or anyone seeking a career path in IT support, systems analysis, or network management."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/supply-chain-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: SCM,
                 programLabel: "Supply Chain Management",
                 programText: "Develop in-demand skills in supply chain management, with a hands-on curriculum tailored for professional success.",
                 programPrice: "5.6",
                 reviews: "196",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
-                certificate: "Executive Diploma Certificate in supply-chain-management",
-                note: "This Executive Diploma in supply chain management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                certificate: "Executive Diploma Certificate in supply chain management",
+                note: "This course provides a practical and strategic overview of supply chain operations, covering procurement, logistics, inventory control, demand planning, and supplier relationship management. You’ll explore global sourcing strategies, warehouse systems, distribution networks, and how data drives decision-making in modern supply chains. With hands-on simulations and industry case studies, learners develop the ability to enhance efficiency, reduce costs, and manage risks in complex supply networks—skills that are vital in today's interconnected business world."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/product-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: projectManagement,
                 programLabel: "Product Management",
-                programText: "Explore product management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Lead the creation and growth of successful products by mastering the tools and mindset of a product manager.",
                 programPrice: "5.6",
                 reviews: "1800",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in product-management",
-                note: "This diploma offers focused training in product management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course immerses you in the lifecycle of product development, from idea generation and market research to launch and optimization. You’ll gain skills in stakeholder communication, roadmap planning, feature prioritization, and agile methodologies. Whether working with engineers, designers, or marketing teams, you’ll learn to align cross-functional efforts toward user-centered solutions. This program equips aspiring product managers with a strategic toolkit to lead innovation, measure impact, and build products that deliver lasting value in dynamic markets."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/product-design",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: pd,
                 programLabel: "Product Design",
-                programText: "Explore product design with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Combine creativity and usability to design products that are intuitive, impactful, and user-focused.",
                 programPrice: "5.6",
                 reviews: "597",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in product-design",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in product design to boost your professional profile."
+                note: "This hands-on course explores the full spectrum of product design—from user research and wireframing to visual aesthetics and interaction design. You'll dive into tools like Figma or Sketch, apply design thinking principles, and test your ideas through prototyping and user feedback. Emphasis is placed on creating accessible, functional, and beautiful interfaces that solve real problems. Ideal for aspiring designers, this course helps you build a portfolio while sharpening the critical thinking and creativity needed to thrive in tech and product-driven industries."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/design-thinking",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: dt,
                 programLabel: "Design Thinking",
-                programText: "Explore design thinking with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Discover how to solve complex problems creatively through human-centered design approaches and innovation frameworks.",
                 programPrice: "5.6",
                 reviews: "1966",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in design-thinking",
-                note: "This diploma offers focused training in design thinking, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This immersive course guides learners through each stage of the design thinking process—from empathizing with users to prototyping solutions and testing ideas. You’ll explore real-world case studies, ideation techniques, and collaborative problem-solving strategies that foster creativity, agility, and innovation. Whether you're in tech, education, or entrepreneurship, this course provides practical tools for designing impactful and user-driven solutions."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/brand-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: bm,
                 programLabel: "Brand Management",
-                programText: "Explore brand management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Build and grow powerful brands through strategic storytelling, visual identity, and market positioning.",
                 programPrice: "5.6",
                 reviews: "761",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in brand-management",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in brand management to boost your professional profile."
+                note: "This course explores the mechanics of building successful brands that resonate with audiences and stand out in competitive markets. You'll learn how to define brand voice, manage perception, create campaigns, and monitor brand equity. With examples from global companies and exercises in brand storytelling, positioning, and consistency, this course equips learners with the tools to manage brands that thrive and evolve over time."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/laravel-programming",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: laravel,
                 programLabel: "Laravel Programming",
-                programText: "Explore laravel programming with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Create robust, scalable, and secure web applications using Laravel’s powerful PHP framework.",
                 programPrice: "5.6",
                 reviews: "743",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in laravel-programming",
-                note: "Gain the tools and confidence to tackle modern challenges in laravel programming through this comprehensive, career-focused diploma course."
+                note: "Learn how to build dynamic and secure web apps using Laravel, one of the most popular PHP frameworks. This course covers routing, middleware, Blade templating, database migrations, and RESTful API development. With real-world projects and a hands-on approach, you’ll gain the skills to architect modern applications efficiently while maintaining clean, testable code."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/java-programming",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: java,
                 programLabel: "Java Programming",
-                programText: "Explore java programming with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Master Java’s object-oriented principles and build powerful applications across desktop, web, and mobile platforms.",
                 programPrice: "5.6",
                 reviews: "1364",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in java-programming",
-                note: "Gain the tools and confidence to tackle modern challenges in java programming through this comprehensive, career-focused diploma course."
+                note: "This course offers an in-depth journey into Java programming, from variables and control structures to advanced topics like multithreading and file I/O. You’ll work on mini-projects that mimic enterprise-level development and learn how to debug, refactor, and optimize Java code. Whether you're building software, Android apps, or backend services, this course sets a strong foundation for long-term success."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/payroll-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: payroll,
                 programLabel: "Payroll Management",
-                programText: "Explore payroll management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Streamline payroll operations and ensure compliance with tax and labor regulations effectively.",
                 programPrice: "5.6",
                 reviews: "1734",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in payroll-management",
-                note: "This Executive Diploma in payroll management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "Gain the knowledge and tools to manage payroll systems with accuracy and legal compliance. This course covers salary structure, statutory deductions, employee benefits, tax filing, and payroll software operations. It’s designed to help HR professionals and finance personnel reduce errors, improve reporting, and ensure employees are paid accurately and on time."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/customer-relationship-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: crm,
                 programLabel: "Customer Relationship Management",
-                programText: "Develop in-demand skills in customer relationship management, with a hands-on curriculum tailored for professional success.",
+                programText: "Develop strategies to build long-term customer relationships and drive loyalty with CRM systems.",
                 programPrice: "5.6",
                 reviews: "1597",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in customer-relationship-management",
-                note: "This diploma offers focused training in customer relationship management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course explores the fundamentals of CRM and how to implement systems that improve customer engagement and retention. You’ll learn about CRM tools, customer segmentation, personalized outreach, and sales funnel optimization. Perfect for marketers, sales reps, and business owners looking to cultivate strong client relationships that drive recurring revenue."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/banking-and-finance",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: bf,
                 programLabel: "Banking and Finance",
-                programText: "Explore banking and finance with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Explore core principles of banking systems, financial instruments, and global economic operations.",
                 programPrice: "5.6",
                 reviews: "1707",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in banking-and-finance",
-                note: "This diploma offers focused training in banking and finance, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "Learn how financial institutions operate, how monetary policy impacts markets, and how investment instruments are used in personal and corporate finance. This course covers commercial banking, lending practices, capital markets, risk management, and financial planning. Ideal for finance professionals, analysts, and anyone entering the banking sector."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/compensation-and-benefits",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: cb,
                 programLabel: "Compensation and Benefits",
-                programText: "Develop in-demand skills in compensation and benefits, with a hands-on curriculum tailored for professional success.",
+                programText: "Design and manage fair, competitive, and motivating compensation structures for today’s workforce.",
                 programPrice: "5.6",
                 reviews: "222",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in compensation-and-benefits",
-                note: "Gain the tools and confidence to tackle modern challenges in compensation and benefits through this comprehensive, career-focused diploma course."
+                note: "This course provides HR professionals with the knowledge to build sustainable salary structures, incentive programs, and employee benefits plans. Topics include internal equity, external competitiveness, job evaluation, and pay-for-performance models. You'll also learn how to navigate laws and compliance issues while keeping employee satisfaction and company goals in balance."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/performance-appraisal",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: pa,
                 programLabel: "Performance Appraisal",
-                programText: "Develop in-demand skills in performance appraisal, with a hands-on curriculum tailored for professional success.",
+                programText: "Evaluate employee performance effectively with structured feedback systems and goal tracking.",
                 programPrice: "5.6",
                 reviews: "1171",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in performance-appraisal",
-                note: "Gain the tools and confidence to tackle modern challenges in performance appraisal through this comprehensive, career-focused diploma course."
+                note: "This course teaches managers and HR specialists how to design and implement performance appraisal systems that drive accountability and growth. You'll explore KPI setting, 360-degree feedback, performance reviews, and strategies for coaching underperformers. By the end, you’ll be able to turn evaluations into actionable development plans."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/talent-acquisition",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: ta,
                 programLabel: "Talent Acquisition",
-                programText: "Explore talent acquisition with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Recruit, assess, and onboard top talent using effective sourcing and selection strategies.",
                 programPrice: "5.6",
                 reviews: "1548",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in talent-acquisition",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in talent acquisition to boost your professional profile."
+                note: "This course covers every stage of modern recruitment—from writing compelling job descriptions and sourcing candidates to interviewing and onboarding. You'll explore tools like ATS systems, recruitment marketing, behavioral assessments, and metrics for measuring hiring effectiveness. It's perfect for HR professionals and hiring managers who want to attract and retain high-caliber talent."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/hr-analytics",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: hr,
                 programLabel: "HR Analytics",
-                programText: "Explore hr analytics with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Leverage data and analytics to drive strategic HR decisions and optimize workforce performance.",
                 programPrice: "5.6",
                 reviews: "1992",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in hr-analytics",
-                note: "Sharpen your expertise in hr analytics and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course empowers HR professionals to make data-driven decisions by teaching how to collect, interpret, and apply workforce metrics. You’ll learn predictive analytics, attrition modeling, employee engagement analysis, and performance trend tracking. With hands-on projects using real HR data, this course enhances your ability to influence organizational growth through measurable people insights."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/public-health",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: ph,
                 programLabel: "Public Health",
-                programText: "Explore public health with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Understand the principles and challenges of promoting health and preventing disease in communities.",
                 programPrice: "5.6",
                 reviews: "1392",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in public-health",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in public health to boost your professional profile."
+                note: "This course introduces key topics in global and local public health, including disease prevention, health education, epidemiology, and policy-making. You'll explore real-world health case studies, learn to assess population needs, and design impactful interventions. Whether you're pursuing a career in healthcare or nonprofit work, this program prepares you to make a difference at the community level."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/content-writing",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: content,
                 programLabel: "Content Writing",
-                programText: "Explore content writing with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Craft compelling and purposeful content for blogs, websites, social media, and marketing campaigns.",
                 programPrice: "5.6",
                 reviews: "1689",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in content-writing",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in content writing to boost your professional profile."
+                note: "This course equips aspiring writers with the skills to plan, structure, and write effective digital content. From storytelling to SEO best practices, you'll learn how to adapt tone for different platforms and engage your target audience. You'll also complete writing challenges and receive feedback to sharpen your technique, making you job-ready for freelance or corporate writing roles."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/pinterest-marketing",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: pinterest,
                 programLabel: "Pinterest Marketing",
-                programText: "Explore pinterest marketing with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Tap into Pinterest's visual power to build brand awareness and drive targeted traffic to your business.",
                 programPrice: "5.6",
                 reviews: "1463",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in pinterest-marketing",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in pinterest marketing to boost your professional profile."
+                note: "Learn how to create optimized Pins, boards, and strategies that turn Pinterest into a high-converting traffic engine. This course covers keyword research, audience targeting, content calendars, and using analytics to grow your reach. Whether you're promoting products or blog content, you'll leave equipped to create a Pinterest presence that delivers real results."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/audit-and-internal-control-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: aicm,
                 programLabel: "Audit and Internal Control Management",
-                programText: "Develop in-demand skills in audit and internal control management, with a hands-on curriculum tailored for professional success.",
+                programText: "Master auditing techniques and internal control frameworks to strengthen organizational integrity.",
                 programPrice: "5.6",
                 reviews: "1338",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in audit-and-internal-control-management",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in audit and internal control management to boost your professional profile."
+                note: "This course provides an in-depth look at auditing procedures, risk management, compliance, and control systems. You’ll learn to design audit programs, detect irregularities, and evaluate internal policies for efficiency and transparency. Ideal for accounting professionals and compliance officers, this course builds critical skills for maintaining accountability and preventing fraud."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/fintech-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Fintech,
                 programLabel: "Fintech Management",
-                programText: "Explore fintech management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Navigate the evolving world of digital finance, blockchain, and financial innovation with confidence.",
                 programPrice: "5.6",
                 reviews: "796",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in fintech-management",
-                note: "Sharpen your expertise in fintech management and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "Dive into the fast-growing fintech sector and learn how emerging technologies are reshaping payments, lending, investment, and banking. You’ll explore blockchain, digital wallets, robo-advisors, and regulatory technology, with case studies from top fintech firms. This course equips you to lead or collaborate in tech-driven finance environments where innovation meets regulation."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/communications-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: ccm,
                 programLabel: "Communications Management",
-                programText: "Develop in-demand skills in communications management, with a hands-on curriculum tailored for professional success.",
+                programText: "Build and deliver effective internal and external communications in professional environments.",
                 programPrice: "5.6",
                 reviews: "1557",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in communications-management",
-                note: "Sharpen your expertise in communications management and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course covers the principles of corporate communication, stakeholder engagement, and strategic messaging. You’ll learn how to manage PR crises, lead communications in project teams, write clear business documents, and use digital platforms for outreach. It's ideal for professionals aiming to influence, inform, and connect through purposeful communication."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/operations-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: om,
                 programLabel: "Operations Management",
-                programText: "Develop in-demand skills in operations management, with a hands-on curriculum tailored for professional success.",
+                programText: "Streamline business operations by improving processes, productivity, and resource utilization.",
                 programPrice: "5.6",
                 reviews: "742",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in operations-management",
-                note: "This Executive Diploma in operations management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course teaches the fundamentals of operations—from process analysis and workflow optimization to inventory control and supply chain alignment. You’ll apply techniques like Lean, Six Sigma, and continuous improvement to real-world business scenarios. It’s suited for professionals looking to boost efficiency, reduce waste, and enhance overall operational performance."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/business-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: businessManagement,
                 programLabel: "Business Management",
-                programText: "Explore business management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Lead teams, manage resources, and make strategic decisions to drive business success.",
                 programPrice: "5.6",
                 reviews: "1172",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in business-management",
-                note: "This Executive Diploma in business management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course provides a broad foundation in management principles including leadership, finance, operations, and organizational behavior. You’ll explore how to set goals, manage conflict, assess performance, and adapt to change in dynamic environments. Perfect for aspiring managers or entrepreneurs seeking a solid grasp of business fundamentals."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/property-and-asset-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: pam,
                 programLabel: "Property and Asset Management",
-                programText: "Develop in-demand skills in property and asset management, with a hands-on curriculum tailored for professional success.",
+                programText: "Manage real estate portfolios and physical assets for long-term growth and operational efficiency.",
                 programPrice: "5.6",
                 reviews: "777",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in property-and-asset-management",
-                note: "This diploma offers focused training in property and asset management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course dives into property lifecycle management, including acquisition, maintenance, valuation, leasing, and divestment. You'll learn to develop asset strategies, evaluate property risks, and oversee tenant relations. With insights from both real estate and facilities management, this course prepares professionals to enhance value while minimizing operational costs."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/monitoring-and-evaluation",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: me,
                 programLabel: "Monitoring and Evaluation",
-                programText: "Develop in-demand skills in monitoring and evaluation, with a hands-on curriculum tailored for professional success.",
+                programText: "Develop strong analytical skills to track project progress, assess impact, and optimize performance.",
                 programPrice: "5.6",
                 reviews: "1646",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in monitoring-and-evaluation",
-                note: "This Executive Diploma in monitoring and evaluation is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course offers practical insights into designing monitoring systems and evaluation frameworks that help organizations make informed, evidence-based decisions. You'll gain expertise in data collection tools, performance indicators, and result-based reporting, preparing you for roles in NGOs, government, or corporate project oversight."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/digital-marketing",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: dm,
                 programLabel: "Digital Marketing",
-                programText: "Explore digital marketing with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Create and manage effective digital campaigns using SEO, social media, PPC, and content strategy.",
                 programPrice: "5.6",
                 reviews: "213",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in digital-marketing",
-                note: "Gain the tools and confidence to tackle modern challenges in digital marketing through this comprehensive, career-focused diploma course."
+                note: "This course equips you with a full digital marketing toolkit—SEO, Google Ads, content marketing, and more—tailored for real-world business goals. Learn how to build customer funnels, boost conversions, and analyze performance using modern tools and data. Ideal for business owners, marketers, and freelancers."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/copywriting",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Copywriting,
                 programLabel: "Copywriting",
-                programText: "Explore copywriting with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Write persuasive, engaging copy that converts audiences into loyal customers.",
                 programPrice: "5.6",
                 reviews: "519",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in copywriting",
-                note: "Whether you're entering the field or upskilling, this course offers robust training in copywriting to boost your professional profile."
+                note: "Master the psychology of words and how to craft attention-grabbing headlines, email campaigns, landing pages, and ads. You'll explore storytelling, emotional triggers, and brand voice development while building a portfolio of compelling work. Perfect for marketers, entrepreneurs, and content creators."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/procurement",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Procurement,
                 programLabel: "Procurement",
-                programText: "Explore procurement with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Gain the expertise to source suppliers, negotiate contracts, and manage purchasing processes efficiently.",
                 programPrice: "5.6",
                 reviews: "343",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in procurement",
-                note: "Sharpen your expertise in procurement and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course dives into supplier selection, cost management, contract law, and purchasing ethics. Learn how to optimize procurement cycles, implement e-procurement tools, and align sourcing with business goals. Ideal for supply chain professionals and aspiring procurement managers."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/office-administration",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: oa,
                 programLabel: "Office Administration",
-                programText: "Develop in-demand skills in office administration, with a hands-on curriculum tailored for professional success.",
+                programText: "Run efficient office operations and support organizational success with administrative expertise.",
                 programPrice: "5.6",
                 reviews: "715",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in office-administration",
-                note: "Gain the tools and confidence to tackle modern challenges in office administration through this comprehensive, career-focused diploma course."
-            },
-            {
-                addToCart: false,
-                projectPath: "/executive-diploma/asset-professional-management",
-                programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
-                programLabel: "Asset Professional Management",
-                programText: "Develop in-demand skills in asset professional management, with a hands-on curriculum tailored for professional success.",
-                programPrice: "5.6",
-                reviews: "398",
-                duration: "1 Month",
-                mode: "Online & Self-Paced",
-                certificate: "Executive Diploma Certificate in asset-professional-management",
-                note: "Sharpen your expertise in asset professional management and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course equips learners with skills in office organization, records management, scheduling, and basic HR and finance tasks. You’ll master digital tools, communication techniques, and workflow optimization, making you a key support pillar in any workplace setting."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/hospitality-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Hospitality,
                 programLabel: "Hospitality Management",
-                programText: "Develop in-demand skills in hospitality management, with a hands-on curriculum tailored for professional success.",
+                programText: "Master service excellence, guest relations, and operational leadership in the hospitality industry.",
                 programPrice: "5.6",
                 reviews: "1191",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in hospitality-management",
-                note: "Gain the tools and confidence to tackle modern challenges in hospitality management through this comprehensive, career-focused diploma course."
+                note: "From front desk operations to event planning, this course teaches the foundations of hotel, resort, and restaurant management. Learn about customer service, quality assurance, budgeting, and staff coordination to build a thriving hospitality environment."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/hse-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: HSE,
                 programLabel: "HSE Management",
-                programText: "Explore hse management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Promote workplace safety and environmental compliance through strategic HSE leadership.",
                 programPrice: "5.6",
                 reviews: "1732",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in hse-management",
-                note: "Sharpen your expertise in hse management and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course covers risk assessment, occupational health regulations, safety planning, and environmental controls. You’ll gain practical tools for accident prevention, incident response, and audits—essential for HSE officers, facility managers, and engineers in high-risk industries."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/financial-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: fm,
                 programLabel: "Financial Management",
-                programText: "Explore financial management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Analyze financial data, plan budgets, and guide businesses toward smart fiscal decisions.",
                 programPrice: "5.6",
                 reviews: "1995",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in financial-management",
-                note: "This diploma offers focused training in financial management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "You’ll learn how to interpret financial statements, manage cash flows, evaluate investments, and create strategic budgets. This course helps business leaders and finance professionals control risk, drive profitability, and align spending with long-term goals."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/warehouse-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Warehouse,
                 programLabel: "Warehouse Management",
-                programText: "Explore warehouse management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Streamline inventory, optimize space, and coordinate warehouse operations for peak efficiency.",
                 programPrice: "5.6",
                 reviews: "1992",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in warehouse-management",
-                note: "This Executive Diploma in warehouse management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "Gain hands-on knowledge of receiving, storage systems, picking, packing, and order fulfillment. Learn best practices in layout planning, stock control, and warehouse software to minimize errors and maximize productivity in modern logistics."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/logistics-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Logistics,
                 programLabel: "Logistics Management",
-                programText: "Explore logistics management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Coordinate supply chain activities, transportation, and delivery systems with precision.",
                 programPrice: "5.6",
                 reviews: "1769",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in logistics-management",
-                note: "This Executive Diploma in logistics management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course explores shipping methods, third-party logistics, tracking systems, and demand forecasting. You’ll develop operational strategies that reduce delays and improve delivery reliability—essential for logistics coordinators and managers."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/materials-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Materials,
                 programLabel: "Materials Management",
-                programText: "Explore materials management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Develop a strong command of materials flow, procurement, and resource allocation to streamline business operations.",
                 programPrice: "5.6",
                 reviews: "1946",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in materials-management",
-                note: "This diploma offers focused training in materials management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course trains professionals to manage materials and supplies effectively within any organization. It covers key areas such as stock level control, procurement planning, logistics coordination, and waste reduction — all aimed at improving operational efficiency and reducing overhead costs."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/inventory-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: Inventory,
                 programLabel: "Inventory Management",
-                programText: "Explore inventory management with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Gain hands-on skills to track, optimize, and manage inventory systems across diverse industries.",
                 programPrice: "5.6",
                 reviews: "708",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in inventory-management",
-                note: "This diploma offers focused training in inventory management, enabling learners to solve problems, lead projects, and drive innovation in their domain."
+                note: "This course explores inventory strategies such as FIFO/LIFO methods, automated systems, auditing techniques, and demand forecasting. Learners will understand how to avoid stockouts, minimize excess inventory, and build systems that align with real-time supply chain goals."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/wordpress-operations-pro",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
-                programLabel: "WordPress Operations Pro\u2122",
-                programText: "Develop in-demand skills in wordpress operations pro\u2122, with a hands-on curriculum tailored for professional success.",
+                programImg: wordpress,
+                programLabel: "WordPress Operations Pro",
+                programText: "Build powerful, responsive websites using WordPress with a focus on backend operations, content workflows, and plugin architecture.",
                 programPrice: "5.6",
                 reviews: "235",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in wordpress-operations-pro",
-                note: "Sharpen your expertise in wordpress operations pro\u2122 and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course is tailored to help learners master both the visible and behind-the-scenes operations of WordPress. From installing and configuring plugins to automating publishing processes and optimizing for performance, participants will gain practical skills that empower them to create and manage high-functioning websites for business or freelance purposes."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/product-analytics",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: productAnalysis,
                 programLabel: "Product Analytics",
-                programText: "Explore product analytics with industry-relevant tools and expert instruction designed to elevate your practical knowledge.",
+                programText: "Unlock the power of product data by learning analytics techniques that drive smarter product decisions and user growth.",
                 programPrice: "5.6",
                 reviews: "1837",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in product-analytics",
-                note: "This Executive Diploma in product analytics is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "Dive into a curriculum designed to teach you how to measure product performance using key metrics, interpret behavioral trends, and generate insights that influence product roadmaps. This course empowers learners to make data-backed decisions, identify churn points, and optimize the user experience in real-world business contexts."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/instagram-marketing-and-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: instagram,
                 programLabel: "Instagram Marketing & Management",
-                programText: "Develop in-demand skills in instagram marketing & management, with a hands-on curriculum tailored for professional success.",
+                programText: "Master the art of growing and managing Instagram accounts for brands, influencers, and campaigns with strategic insight.",
                 programPrice: "5.6",
                 reviews: "1395",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in instagram-marketing-&-management",
-                note: "This Executive Diploma in instagram marketing & management is designed to provide an advanced understanding of the field, integrating theory with real-world applications."
+                note: "This course walks you through Instagram content strategy, analytics, ad management, and influencer collaborations. Learners will explore real case studies, learn algorithm hacks, and practice storytelling methods that convert followers into loyal customers — all within the Instagram ecosystem."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/facebook-ads-and-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: facebook,
                 programLabel: "Facebook Ads and Management",
-                programText: "Develop in-demand skills in facebook ads and management, with a hands-on curriculum tailored for professional success.",
+                programText: "Become proficient in Facebook advertising and page management to run data-driven campaigns that maximize ROI.",
                 programPrice: "5.6",
                 reviews: "456",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in facebook-ads-and-management",
-                note: "Gain the tools and confidence to tackle modern challenges in facebook ads and management through this comprehensive, career-focused diploma course."
+                note: "This hands-on course covers the full spectrum of Facebook Ads—from creating ad creatives and setting up pixel tracking to targeting audiences and analyzing ad reports. Learners will gain the tools and templates to manage ad accounts, scale campaigns efficiently, and drive measurable growth for businesses or clients."
             },
             {
                 addToCart: false,
                 projectPath: "/executive-diploma/twitter-operations-and-management",
                 programName: "EXECUTIVE DIPLOMA",
-                programImg: IT,
+                programImg: twitter,
                 programLabel: "Twitter Operations and Management",
-                programText: "Develop in-demand skills in twitter operations and management, with a hands-on curriculum tailored for professional success.",
+                programText: "Learn to manage Twitter accounts with an edge—through content planning, trends leverage, and engagement analytics.",
                 programPrice: "5.6",
                 reviews: "1253",
                 duration: "1 Month",
                 mode: "Online & Self-Paced",
                 certificate: "Executive Diploma Certificate in twitter-operations-and-management",
-                note: "Sharpen your expertise in twitter operations and management and acquire the knowledge required to contribute strategically in your organization or career path."
+                note: "This course equips learners with the tactical know-how to run high-performing Twitter profiles. From creating viral threads and Twitter Spaces to handling brand crisis communication, you’ll master how to grow an audience and maintain a professional, responsive Twitter presence tailored for success in digital communications."
             }
         ]
     },

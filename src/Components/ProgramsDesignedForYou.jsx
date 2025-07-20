@@ -30,7 +30,7 @@ const ProgramsDesignedForYou = () => {
         } else if (programs === 'mini') {
             navigate('/mini-mba')
         } else if (programs === 'PC') {
-            navigate('/professional-courses')
+            navigate('/professional-certificate')
         }
     }
 

@@ -1,12 +1,13 @@
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Home2 from "./Pages/Home2";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Programs from "./Pages/Programs";
 import EachPrograms from "./Components/EachPrograms";
 import Cart from "./Components/Cart";
 import { useEffect, useState } from "react";
 import About from "./Pages/About";
+import NotFound from "./Pages/NotFound";
 
 function App() {
 
@@ -46,6 +47,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/:category" element={<Programs setOpenCart={setOpenCart} />} />
           <Route path="/:category/:slug" element={<EachPrograms setOpenCart={setOpenCart} />} />
+          <Route path="/404" element={<NotFound />} />
+          <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </div>
       <Cart openCart={openCart} setOpenCart={setOpenCart} />
