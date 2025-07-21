@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import Logo from '../Images/Logo.png'
-import pro1 from '../Images/program1.png'
-import pro2 from '../Images/program2.png'
-import pro3 from '../Images/program3.png'
-import pro4 from '../Images/program4.png'
-import pro5 from '../Images/program5.png'
-import pro6 from '../Images/program6.png'
+import pro1 from '../Images/program1.webp'
+import pro2 from '../Images/program2.webp'
+import pro3 from '../Images/program3.webp'
+import pro4 from '../Images/program4.webp'
+import pro5 from '../Images/program5.webp'
+import pro6 from '../Images/program6.webp'
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { MdMenu, MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { Link } from 'react-router-dom';
@@ -110,12 +110,12 @@ const Navbar = () => {
           )}
         </div>
 
-        <Link to='/articles'>
-          <p onClick={() => setPrograms(false)} className='flex gap-[5px] items-center'>
-            ARTICLES
-            <HiMiniArrowUpRight />
-          </p>
-        </Link>
+        {/* <Link to='/articles'> */}
+        <p onClick={() => setPrograms(false)} className='flex gap-[5px] items-center'>
+          ARTICLES
+          <HiMiniArrowUpRight />
+        </p>
+        {/* </Link> */}
         <Link to='/about'>
           <p onClick={() => setPrograms(false)} className='flex gap-[5px] items-center'>
             ABOUT US
@@ -227,12 +227,12 @@ const Navbar = () => {
             <MdOutlineKeyboardArrowDown />
           </p> <hr className='border w-full border-black/40' />
           {/* </Link> */}
-          {/* <Link to='/about'> */}
-          <p onClick={() => setOpenMenu(false)} className='flex gap-[5px] items-center'>
-            ABOUT US
-            <HiMiniArrowUpRight />
-          </p> <hr className='border w-full border-black/40' />
-          {/* </Link> */}
+          <Link to='/about'>
+            <p onClick={() => setOpenMenu(false)} className='flex gap-[5px] items-center'>
+              ABOUT US
+              <HiMiniArrowUpRight />
+            </p> <hr className='border w-full border-black/40' />
+          </Link>
         </div>
         <div className='text-[12px] font-normal flex flex-col gap-3'>
           <button className='py-[10px] px-3 rounded-[5px] border-2 border-[#FFFFFF80] text-white bg-gradient-to-r from-[#C0943E] to-[#5A451D]'>APPLY NOW</button>

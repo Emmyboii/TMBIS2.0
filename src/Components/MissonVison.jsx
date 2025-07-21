@@ -4,27 +4,27 @@ import promise from '../Images/promise.png'
 
 const MissonVison = () => {
     return (
-        <div className='px-24 flex items-center gap-3 mt-10'>
-            <div className='border border-[#CCCCCC] p-3 w-[90%]'>
+        <div className='xl:px-24 sh:px-16 sc:px-7 px-4 flex mh:flex-row flex-col items-center gap-3 mt-10'>
+            <div className='border border-[#CCCCCC] p-3 mh:w-[90%] w-full'>
                 <div className='flex items-center gap-2'>
-                    <img className='size-[40px]' src={mission} alt="" />
-                    <p className='bg-gradient-to-r from-[#002B5B] to-[#005BC1] text-transparent bg-clip-text font-semibold text-[29px]'>Our Mission</p>
+                    <img className='mc:size-[40px] size-[30px]' src={mission} alt="" />
+                    <p className='bg-gradient-to-r from-[#002B5B] to-[#005BC1] text-transparent bg-clip-text font-semibold mc:text-[29px] md:text-[23px] text-lg'>Our Mission</p>
                 </div>
-                <p className='mt-2 sm:text-lg text-base'>To democratize high-quality business education for all.</p>
+                <p className='mt-2 xl:text-lg mc:text-base text-sm'>To democratize high-quality business education for all.</p>
             </div>
-            <div className='border border-[#CCCCCC] p-3 w-full'>
+            <div className='border border-[#CCCCCC] p-3 mh:w-full w-full'>
                 <div className='flex items-center gap-2'>
-                    <img className='size-[40px]' src={vision} alt="" />
-                    <p className='bg-gradient-to-r from-[#002B5B] to-[#005BC1] text-transparent bg-clip-text font-semibold text-[29px]'>Our Vision</p>
+                    <img className='mc:size-[40px] size-[30px]' src={vision} alt="" />
+                    <p className='bg-gradient-to-r from-[#002B5B] to-[#005BC1] text-transparent bg-clip-text font-semibold mc:text-[29px] md:text-[23px] text-lg'>Our Vision</p>
                 </div>
-                <p className='mt-2 sm:text-lg text-base'>To be the global platform for accessible business leadership training.</p>
+                <p className='mt-2 xl:text-lg mc:text-base text-sm'>To be the global platform for accessible business leadership training.</p>
             </div>
-            <div className='border border-[#CCCCCC] p-3 w-[90%]'>
+            <div className='border border-[#CCCCCC] p-3 mh:w-[90%] w-full'>
                 <div className='flex items-center gap-2'>
-                    <img className='size-[40px]' src={promise} alt="" />
-                    <p className='bg-gradient-to-r from-[#002B5B] to-[#005BC1] text-transparent bg-clip-text font-semibold text-[29px]'>Our Promise</p>
+                    <img className='mc:size-[40px] size-[30px]' src={promise} alt="" />
+                    <p className='bg-gradient-to-r from-[#002B5B] to-[#005BC1] text-transparent bg-clip-text font-semibold mc:text-[29px] md:text-[23px] text-lg'>Our Promise</p>
                 </div>
-                <p className='mt-2 sm:text-lg text-base'>Flexible learning, Affordable and Career-focused.</p>
+                <p className='mt-2 xl:text-lg mc:text-base text-sm'>Flexible learning, Affordable and Career-focused.</p>
             </div>
         </div>
     )

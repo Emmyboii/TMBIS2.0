@@ -3,7 +3,7 @@ import applybtn from '../Images/applybtn.png'
 
 const Apply = () => {
     return (
-        <div className='mt-7 xl:px-24 sh:pl-16 sh:pr-10 px-7'>
+        <div className='mt-7 xl:px-24 sh:pl-16 sh:pr-10 sp:px-7 px-4'>
             <div className='flex sm:flex-row flex-col items-center justify-start gap-5'>
                 <p className='text-[#ffffff] bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] sp:text-[32px] text-2xl mm:text-start text-center font-bold'>Apply For Scholarships</p>
                 <p className='text-sm rounded-full p-[5px] italic font-normal bg-[#C0943E33] border-[#79797980] border shadow-md shadow-[#00000040] fonded'>Limited Slots Available</p>

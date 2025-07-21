@@ -11,7 +11,7 @@ import { HiMiniArrowRight } from 'react-icons/hi2';
 
 const LearningBenefit = () => {
     return (
-        <div className='xl:px-24 sh:pl-16 sh:pr-10 px-7'>
+        <div className='xl:px-24 sh:pl-16 sh:pr-10 sp:px-7 px-4'>
             <p className='text-[#ffffff] bg-gradient-to-r from-[#002B5B] via-[#00438E] via-[#004FA7] to-[#005BC1] bg-clip-text text-transparent lf:text-[40px] mm:text-[32px] text-[25px] mm:text-start text-center font-bold'>Our Learning Benefits</p>
             <div className='mt-4 grid mc:grid-cols-3 sd:grid-cols-2 gap-3'>
                 <div className='border-[#797979B2] h-[461px] relative flex flex-col gap-2 border bg-white shadow-lg shadow-[#00000040] rounded-[10px] pt-6'>

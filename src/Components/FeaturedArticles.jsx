@@ -6,7 +6,7 @@ import PUDD4 from '../Images/PUDD4.png'
 
 const FeaturedArticles = () => {
     return (
-        <div className='xl:px-24 sh:pl-16 sh:pr-10 px-7 bg-[#002B5B] py-8 text-white'>
+        <div className='xl:px-24 sh:pl-16 sh:pr-10 sp:px-7 px-4 bg-[#002B5B] py-8 text-white'>
             <div className='grid grid-cols-2'>
                 <div className='mk:col-span-1 col-span-2'>
                     <p className='font-bold sp:text-[45px] sr:text-3xl text-2xl'>Featured Articles</p>

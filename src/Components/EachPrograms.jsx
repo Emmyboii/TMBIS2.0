@@ -77,7 +77,7 @@ const EachPrograms = ({ setOpenCart }) => {
     };
 
     if (!currentProgram) {
-        return <p className="text-center mt-20 text-red-600">Program not found.</p>;
+        return <p className="text-center my-20 text-xl text-red-600">Program not found.</p>;
     }
 
     const { programImg, programLabel, programText, projectPath, programPrice, programName, reviews, duration, mode, certificate, note } = currentProgram;
